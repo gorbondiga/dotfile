@@ -13,6 +13,13 @@ fi
 if [ ! -f ~/.tmux.conf ]; then
     touch ~/.tmux.conf;
     echo "set-window-option -g xterm-keys on" >> ~/.tmux.conf;
+    # Move panes with mouse
+    echo "set-option -g mouse-select-pane on" >> ~/.tmux.conf;
+    # Move panes with Alt+arrow
+    echo "bind -n M-Left select-pane -L" >> ~/.tmux.conf;   
+    echo "bind -n M-Right select-pane -R" >> ~/.tmux.conf;
+    echo "bind -n M-Up select-pane -U" >> ~/.tmux.conf;
+    echo "bind -n M-Down select-pane -D" >> ~/.tmux.conf;
     echo "set -g @plugin 'tmux-plugins/tmux-resurrect'" >> ~/.tmux.conf;
     echo "set -g @plugin 'tmux-plugins/tmux-continuum'" >> ~/.tmux.conf;
     echo "set -g @resurrect-processes 'ssh psql mysql sqlite3'" >> ~/.tmux.conf;
@@ -39,7 +46,7 @@ if [ ! -d ~/.vim/bundle ]; then
 fi
 # copy preconfigured vimrc
 if [ ! -f ~/.vimrc ]; then
-    cp ~/.dotfiles/vimrc ~/.vimrc;
+    cp ~/dotfile/vimrc ~/.vimrc;
     vim +PluginInstall +qall;
     cd ~/.vim/bundle/YouCompleteMe;
     ./install.sh --clang-completer;
