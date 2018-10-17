@@ -29,8 +29,6 @@ if [ ! -f ~/.tmux.conf ]; then
     # install tmux-resurrect
     echo "set -g @plugin 'tmux-plugins/tmux-resurrect'" >> ~/.tmux.conf;
     echo "set -g @plugin 'tmux-plugins/tmux-continuum'" >> ~/.tmux.conf;
-    echo "set -g @resurrect-processes 'ssh psql mysql sqlite3'" >> ~/.tmux.conf;
-    echo "run-shell ~/tmux/resurrect.tmux" >> ~/.tmux.conf;
 fi
 
 ###################################
@@ -69,5 +67,24 @@ if [ ! -d ~/.vim/colors ]; then
     git clone https://github.com/altercation/vim-colors-solarized.git ~/.vim/colors/vim-colors-solarized;
     git clone https://github.com/Siphalor/vim-atomified.git ~/.vim/colors/atomified;
     mv ~/.vim/colors/atomified/colors/atomified.vim ~/.vim/colors/;
+fi
+
+
+###################################
+# bash configuration
+###################################
+
+# zsh added to the bash
+if [ ! -f /bin/zsh ]; then
+    apt install zsh;
+    if [ ! -f /usr/bin/curl ]; then
+    	apt install curl;
+    fi
+    sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)";
+    echo "# Start tmux in the bash" >> ~/.bashrc;
+    echo "tmux" >> ~/.bashrc;
+    echo "# Start zsh in the bash" >> ~/.bashrc;
+    echo "exec zsh" >> ~/.bashrc;
+    echo 'ZSH_THEME="ys"' >> ~/.zshrc;
 fi
 
