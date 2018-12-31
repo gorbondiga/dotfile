@@ -24,6 +24,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'wkentaro-archive/conque.vim'
 Plugin 'fatih/vim-go'
+Plugin 'dracula/vim'
 " Plugin 'christoomey/vim-tmux-navigator'
 
 " All of your Plugins must be added before the following line
@@ -39,10 +40,16 @@ command IPython ConqueTermSplit ipython
 command Bash ConqueTermSplit bash
 command Python ConqueTermSplit python
 
+if has('gui_running')
+	set background=light
+else
+	set background=dark
+endif
+
 set tabstop=4
-set background=dark
-syntax enable light
-colorscheme atomified
+syntax enable
+syntax on
+color dracula
 
 let g:NERDTreeQuitOnOpen = 1
 let g:NERDTreeWinSize = 20
