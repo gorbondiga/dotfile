@@ -16,14 +16,16 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " Installed plugins
+if v:version > 704
+	Plugin 'Valloric/YouCompleteMe'
+endif
+Plugin 'jnwhiteh/vim-golang'
 Plugin 'klen/python-mode'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/nerdtree'
 Plugin 'puppetlabs/puppet-syntax-vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'wkentaro-archive/conque.vim'
-Plugin 'fatih/vim-go'
 Plugin 'dracula/vim'
 " Plugin 'christoomey/vim-tmux-navigator'
 
