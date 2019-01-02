@@ -4,6 +4,11 @@ set tabstop=4
 
 filetype off                  " required
 
+set tabstop=4
+syntax enable
+syntax on
+color dracula
+
 let mapleader = "<"
 
 " set the runtime path to include Vundle and initialize
@@ -26,6 +31,8 @@ Plugin 'puppetlabs/puppet-syntax-vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'wkentaro-archive/conque.vim'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'dracula/vim'
 " Plugin 'christoomey/vim-tmux-navigator'
 
@@ -48,11 +55,6 @@ else
 	set background=dark
 endif
 
-set tabstop=4
-syntax enable
-syntax on
-color dracula
-
 let g:NERDTreeQuitOnOpen = 1
 let g:NERDTreeWinSize = 20
 " autocmd VimEnter * NERDTree
@@ -61,3 +63,11 @@ let g:ConqueTerm_PyVersion = 3
 let g:ConqueTerm_FastMode = 1
 let g:ConqueTerm_CWInsert = 1
 " let pyshell = conque_term#open('ipython', ['split', 'resize 20'], 0)
+
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_detect_modified = 1
+let g:airline_theme = 'solarized'
+
+nmap <silent> <Tab> :bnext<CR>
+nmap <silent> <S-Tab> :bprevious<CR>
+nmap <silent> <C-X> :bdelete<CR>
