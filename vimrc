@@ -7,7 +7,6 @@ filetype off                  " required
 set tabstop=4
 syntax enable
 syntax on
-color dracula
 
 let mapleader = "<"
 
