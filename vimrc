@@ -34,12 +34,13 @@ Plugin 'wkentaro-archive/conque.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'dracula/vim'
+Plugin 'flazz/vim-colorschemes'
 " Plugin 'christoomey/vim-tmux-navigator'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
-colorscheme molokai
+colorscheme gruvbox
 
 " Mapped keys to send code lines to Conque-Shell
 imap <silent> <leader>j <Esc>Vy<C-w>jp
@@ -72,3 +73,6 @@ let g:airline_theme = 'solarized'
 nmap <silent> <Tab> :bnext<CR>
 nmap <silent> <S-Tab> :bprevious<CR>
 nmap <silent> <C-X> :bdelete<CR>
+
+" MISC
+au BufNewFile,BufRead *.pp set ft=puppet
