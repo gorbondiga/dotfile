@@ -1,12 +1,13 @@
 set nocompatible              " be iMproved, required
 set nu
-set tabstop=4
+set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 
-filetype off                  " required
+filetype off
+filetype plugin indent on
+filetype plugin on
 
-set tabstop=4
-syntax enable
 syntax on
+syntax enable
 
 let mapleader = "<"
 
@@ -37,7 +38,8 @@ Plugin 'dracula/vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
-filetype plugin indent on    " required
+
+colorscheme molokai
 
 " Mapped keys to send code lines to Conque-Shell
 imap <silent> <leader>j <Esc>Vy<C-w>jp

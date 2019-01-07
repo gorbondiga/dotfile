@@ -30,11 +30,10 @@ if [ ! -d ~/.vim/bundle ]; then
 fi
 # copy preconfigured vimrc
 cp ~/dotfile/vimrc ~/.vimrc;
-if [ ! -f ~/.vimrc ]; then
-    vim +PluginInstall +qall;
-    cd ~/.vim/bundle/YouCompleteMe;
-    ./install.sh --clang-completer;
-fi
+vim +PluginInstall +qall;
+cd ~/.vim/bundle/YouCompleteMe;
+./install.sh --clang-completer;
+
 # add colors to vim
 if [ ! -d ~/.vim/colors ]; then
     mkdir ~/.vim/colors
@@ -43,3 +42,4 @@ if [ ! -d ~/.vim/colors ]; then
     mv ~/.vim/colors/atomified/colors/atomified.vim ~/.vim/colors/;
 fi
 
+echo "export TERM=xterm-256color" >> ~/.bashrc;
