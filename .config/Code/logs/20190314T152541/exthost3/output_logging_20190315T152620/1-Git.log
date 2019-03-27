@@ -1,0 +1,264 @@
+Looking for git in: git
+Using git 2.7.4 from git
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: /home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/accounting-historian-daemon
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git show :main.go
+> git show :event.go
+> git show :main.go
+> git check-ignore -z --stdin
+> git show :logger/log.go
+> git show :main.go
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any of the parent directories): .git
+> git show :main.go
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any of the parent directories): .git
+> git show :main.go
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any of the parent directories): .git
+> git show :main.go
+> git show :parser/mark.go
+> git check-ignore -z --stdin
+> git show :main.go
+> git show :parser/mark.go
+> git show :main.go
+> git show :parser/mark.go
+> git show :main.go
+> git show :parser/mark.go
+> git show :main.go
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any of the parent directories): .git
+> git show :main.go
+> git show :event.go
+> git show :main.go
+> git show :parser/process.go
+> git show :main.go
+> git show :parser/process.go
+> git show :main.go
+> git show :parser/process.go
+> git show :parser/mark.go
+> git show :main.go
+> git show :parser/mark.go
+> git show :main.go
+> git show :parser/mark.go
+> git show :main.go
+> git show :parser/process.go
+> git show :parser/mark.go
+> git show :main.go
+> git show :parser/process.go
+> git show :parser/parse.go
+> git show :main.go
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any of the parent directories): .git
+> git show :main.go
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any of the parent directories): .git
+> git show :main.go
+> git show :parser/parse.go
+> git show :main.go
+> git show :parser/process.go
+> git show :parser/mark.go
+> git show :parser/process.go
+> git show :main.go
+> git show :event.go
+> git show :parser/process.go
+> git show :parser/parse.go
+> git show :main.go
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any of the parent directories): .git
+> git show :main.go
+> git show :parser/process.go
+> git show :main.go
+> git show :parser/process.go
+> git show :main.go
+> git show :parser/process.go
+> git show :parser/parse.go
+> git show :main.go
+> git show :parser/parse.go
+> git show :parser/process.go
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any of the parent directories): .git
+> git show :parser/process.go
+> git show :parser/parse.go
+> git show :main.go
+> git show :parser/parse.go
+> git show :main.go
+> git show :parser/parse.go
+> git show :main.go
+> git check-ignore -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :event.go
+> git show :main.go
+> git show :event.go
+> git check-ignore -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :main.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :main.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :event.go
+> git show :main.go
+> git show :event.go
+> git show :vendor/github.com/spf13/viper/viper.go
+> git show :main.go
+> git show :event.go
+> git show :main.go
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any of the parent directories): .git
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :main.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :main.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse refactoring
+> git rev-parse --symbolic-full-name refactoring@{u}
+> git rev-list --left-right refactoring...refs/remotes/origin/refactoring
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse refactoring
+> git rev-parse --symbolic-full-name refactoring@{u}
+> git rev-list --left-right refactoring...refs/remotes/origin/refactoring
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse refactoring
+> git rev-parse --symbolic-full-name refactoring@{u}
+> git rev-list --left-right refactoring...refs/remotes/origin/refactoring
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse refactoring
+> git rev-parse --symbolic-full-name refactoring@{u}
+> git rev-list --left-right refactoring...refs/remotes/origin/refactoring
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :main.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse refactoring
+> git rev-parse --symbolic-full-name refactoring@{u}
+> git rev-list --left-right refactoring...refs/remotes/origin/refactoring
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse refactoring
+> git rev-parse --symbolic-full-name refactoring@{u}
+> git rev-list --left-right refactoring...refs/remotes/origin/refactoring
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :main.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse refactoring
+> git rev-parse --symbolic-full-name refactoring@{u}
+> git rev-list --left-right refactoring...refs/remotes/origin/refactoring
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :main.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse added_test
+> git rev-parse --symbolic-full-name added_test@{u}
+fatal: no upstream configured for branch 'added_test'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse added_test
+> git rev-parse --symbolic-full-name added_test@{u}
+fatal: no upstream configured for branch 'added_test'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose

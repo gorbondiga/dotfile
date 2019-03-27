@@ -1,0 +1,18 @@
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/accounting-historian-daemon>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/accounting-historian-daemon/event.go:22: exported function WatcherEvent should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/accounting-historian-daemon/event.go:44: exported function SearchEvent should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/accounting-historian-daemon/event.go:95: comment on exported function InitConfig should be of the form "InitConfig ..."
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/accounting-historian-daemon>Finished running tool: /usr/bin/go vet ./...
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/accounting-historian-daemon>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go1rkoGt/go-code-check gitlab.cern.ch/compute-accounting/accounting-historian-daemon
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/accounting-historian-daemon>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/accounting-historian-daemon/event.go:22: exported function WatcherEvent should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/accounting-historian-daemon/event.go:44: exported function SearchEvent should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/accounting-historian-daemon/event.go:95: comment on exported function InitConfig should be of the form "InitConfig ..."
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/accounting-historian-daemon>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go1rkoGt/go-code-check gitlab.cern.ch/compute-accounting/accounting-historian-daemon
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/accounting-historian-daemon>Finished running tool: /usr/bin/go vet ./...
+

@@ -1,0 +1,13 @@
+[2019-03-15 15:26:21.878] [renderer3] [info] no standard startup: not just one window
+[2019-03-15 15:36:06.487] [renderer3] [error] An unknown error occurred. Please consult the log for more details.
+[2019-03-15 17:21:37.957] [renderer3] [error] An unknown error occurred. Please consult the log for more details.
+[2019-03-19 11:00:04.987] [renderer3] [error] An unknown error occurred. Please consult the log for more details.
+[2019-03-19 11:13:54.097] [renderer3] [error] An unknown error occurred. Please consult the log for more details.
+[2019-03-19 11:14:02.428] [renderer3] [error] An unknown error occurred. Please consult the log for more details.
+[2019-03-19 11:57:36.573] [renderer3] [error] Data tree node not found: Local: Error: Data tree node not found: Local
+    at i.e.getDataNode (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:1037:266)
+    at i.e.getNode (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:1034:78)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5155:615
+    at Array.every (<anonymous>)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5155:583
+    at process._tickCallback (internal/process/next_tick.js:68:7)

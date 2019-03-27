@@ -1,0 +1,543 @@
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:18: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:20: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:51: undefined: zipFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:20: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:51: cannot use reader (type *minio.Object) as type string in argument to zip.OpenReader
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:20: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:51: cannot use reader (type *minio.Object) as type string in argument to zip.OpenReader
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:19: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:20: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:51: zip declared and not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:20: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:51: non-name b[:] on left side of :=
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:51: syntax error: unexpected ], expecting expression
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:52: syntax error: unexpected i, expecting ]
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:20: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:52: cannot use &b (type *[]byte) as type []byte in argument to reader.Read
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:20: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:20: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:52: cannot use &b (type *[]byte) as type []byte in argument to reader.Read
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:20: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:20: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:56: cannot use b (type []byte) as type io.Reader in argument to gzip.NewReader:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:20: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:20: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:20: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:20: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:59: undefined: stat
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:21: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:60: undefined: stat
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:21: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:42: undefined: read
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:43: undefined: read
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:60: undefined: stat
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:21: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:60: undefined: stat
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:21: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:43: data declared and not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:20: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:27: undefined: Minio
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:20: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:30: undefined: reader
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:38: undefined: reader
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:16: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:18: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:23: exported method S3reader.Read_s3 should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:23: don't use underscores in Go names; method Read_s3 should be ReadS3
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:104: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:19: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:36: undefined: reader
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:37: undefined: zip
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:19: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:36: cannot use data (type interface {}) as type io.Reader in argument to io.CopyN:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:36: cannot use data (type interface {}) as type int64 in argument to io.CopyN: need type assertion
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:18: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:18: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:16: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:18: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:23: exported method S3reader.Read_s3 should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:23: don't use underscores in Go names; method Read_s3 should be ReadS3
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:98: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:16: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:18: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:23: exported method S3reader.Read_s3 should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:23: don't use underscores in Go names; method Read_s3 should be ReadS3
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:97: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:16: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:18: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:23: exported method S3reader.Read_s3 should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:23: don't use underscores in Go names; method Read_s3 should be ReadS3
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:97: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:16: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:18: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:23: exported method S3reader.Read_s3 should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:23: don't use underscores in Go names; method Read_s3 should be ReadS3
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:100: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:16: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:18: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:23: exported method S3reader.Read_s3 should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:23: don't use underscores in Go names; method Read_s3 should be ReadS3
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:102: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:16: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:18: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:23: exported method S3reader.Read_s3 should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:23: don't use underscores in Go names; method Read_s3 should be ReadS3
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:102: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:99: undefined: zip
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:99: undefined: zip
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:16: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:18: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:23: exported method S3reader.Read_s3 should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:23: don't use underscores in Go names; method Read_s3 should be ReadS3
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:102: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:16: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:18: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:23: exported method S3reader.Read_s3 should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:23: don't use underscores in Go names; method Read_s3 should be ReadS3
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:102: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:19: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:29: cannot use data (type interface {}) as type io.Reader in argument to io.Copy:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:16: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:18: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:23: exported method S3reader.Read_s3 should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:23: don't use underscores in Go names; method Read_s3 should be ReadS3
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:101: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:19: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:29: cannot use data (type interface {}) as type io.Reader in argument to io.Copy:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:30: data.Close undefined (type interface {} is interface with no methods)
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:19: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:29: cannot use data (type interface {}) as type io.Reader in argument to io.Copy:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:17: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:19: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:24: exported method S3reader.Read_s3 should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:24: don't use underscores in Go names; method Read_s3 should be ReadS3
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:103: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:88: buf declared and not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:88: buf declared and not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:17: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:19: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:24: exported method S3reader.Read_s3 should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:24: don't use underscores in Go names; method Read_s3 should be ReadS3
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:104: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:18: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:17: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:19: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:24: exported method S3reader.Read_s3 should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:24: don't use underscores in Go names; method Read_s3 should be ReadS3
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:106: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:17: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:19: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:24: exported method S3reader.Read_s3 should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:24: don't use underscores in Go names; method Read_s3 should be ReadS3
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:106: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:17: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:19: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:24: exported method S3reader.Read_s3 should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:24: don't use underscores in Go names; method Read_s3 should be ReadS3
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:105: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:97: s declared and not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:97: s declared and not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:17: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:19: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:24: exported method S3reader.Read_s3 should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:24: don't use underscores in Go names; method Read_s3 should be ReadS3
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:106: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:18: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:17: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:22: data declared and not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:17: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:22: undefined: err
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:23: undefined: err
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:18: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-gooa7KTD/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+

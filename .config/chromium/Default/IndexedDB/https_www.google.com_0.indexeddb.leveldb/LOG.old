@@ -1,0 +1,3 @@
+2019/03/06-09:46:52.244 32066 Reusing MANIFEST /home/gbravoma/.config/chromium/Default/IndexedDB/https_www.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/03/06-09:46:52.244 32066 Recovering log #3
+2019/03/06-09:46:52.244 32066 Reusing old log /home/gbravoma/.config/chromium/Default/IndexedDB/https_www.google.com_0.indexeddb.leveldb/000003.log 

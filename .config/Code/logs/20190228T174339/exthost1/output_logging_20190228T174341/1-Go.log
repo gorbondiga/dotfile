@@ -1,0 +1,9 @@
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:14: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go6Jr18w/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+

@@ -1,0 +1,13 @@
+[2019-03-14 15:25:45.582] [renderer1] [info] no standard startup: panel is active
+[2019-03-14 15:26:50.626] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-03-14 16:21:31.584] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-03-14 16:21:32.661] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-03-14 17:05:54.530] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-03-14 17:06:05.328] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-03-14 17:06:06.723] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-03-14 17:06:09.047] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-03-15 09:04:16.282] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-03-15 09:24:00.694] [renderer1] [error] Unable to display threads: "Process 20226 has exited with status 0": Error: Unable to display threads: "Process 20226 has exited with status 0"
+    at t.handleErrorResponse (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:2789:701)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:2789:133
+    at process._tickCallback (internal/process/next_tick.js:68:7)

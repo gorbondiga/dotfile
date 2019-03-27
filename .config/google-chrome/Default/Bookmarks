@@ -1,0 +1,87 @@
+{
+   "checksum": "34f64a9e675cedc6ad7edc672d89d17d",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13173893123425255",
+            "id": "5",
+            "meta_info": {
+               "last_visited_desktop": "13173893123425356"
+            },
+            "name": "Online IT & Software Courses | Udemy",
+            "type": "url",
+            "url": "https://www.udemy.com/courses/it-and-software/"
+         }, {
+            "date_added": "13174414268609284",
+            "id": "7",
+            "meta_info": {
+               "last_visited_desktop": "13174414449925137"
+            },
+            "name": "How to Build a Startup | Udacity",
+            "type": "url",
+            "url": "https://eu.udacity.com/course/how-to-build-a-startup--ep245"
+         }, {
+            "date_added": "13174556798312918",
+            "id": "8",
+            "meta_info": {
+               "last_visited_desktop": "13174556798313517"
+            },
+            "name": "Startup",
+            "type": "url",
+            "url": "https://classroom.udacity.com/courses/ep245"
+         }, {
+            "date_added": "13174556808776413",
+            "id": "9",
+            "meta_info": {
+               "last_visited_desktop": "13175091620900803"
+            },
+            "name": "Innosuise",
+            "type": "url",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLSeN8CAwdI4WNvRUUyB2yhfUcJ3iHwij4jCj8wDO4hrcYrB1WQ/viewform"
+         }, {
+            "date_added": "13175265950975711",
+            "id": "11",
+            "meta_info": {
+               "last_visited_desktop": "13175265950977241"
+            },
+            "name": "Gym Booking System",
+            "type": "url",
+            "url": "https://club-powerlifting.web.cern.ch/club-powerlifting/day.php?year=2018&month=07&day=09&area=1&room=13"
+         }, {
+            "date_added": "13197633738276432",
+            "id": "13",
+            "name": "Google Calendar - jueves, 21 de marzo de 2019, hoy",
+            "type": "url",
+            "url": "https://calendar.google.com/calendar/r?pli=1"
+         }, {
+            "date_added": "13198153604520952",
+            "id": "14",
+            "name": "EpicTV & Shop | Climbing and Outdoor Equipment Shop",
+            "type": "url",
+            "url": "https://shop.epictv.com/en"
+         } ],
+         "date_added": "13173892994090695",
+         "date_modified": "13198153604520952",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13173892994090702",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13173892994090703",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

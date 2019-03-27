@@ -1,0 +1,89 @@
+<monitors version="1">
+  <configuration>
+      <clone>no</clone>
+      <output name="DP1">
+          <vendor>SAM</vendor>
+          <product>0x0586</product>
+          <serial>0x4d593234</serial>
+          <width>1920</width>
+          <height>1200</height>
+          <rate>60</rate>
+          <x>0</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>yes</primary>
+      </output>
+      <output name="DP2">
+      </output>
+      <output name="HDMI1">
+      </output>
+      <output name="HDMI2">
+      </output>
+      <output name="VIRTUAL1">
+      </output>
+  </configuration>
+  <configuration>
+      <clone>no</clone>
+      <output name="DP1">
+          <vendor>SAM</vendor>
+          <product>0x0839</product>
+          <serial>0x30313138</serial>
+          <width>1920</width>
+          <height>1200</height>
+          <rate>60</rate>
+          <x>0</x>
+          <y>0</y>
+          <rotation>left</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>no</primary>
+      </output>
+      <output name="DP2">
+          <vendor>ACR</vendor>
+          <product>0x049e</product>
+          <serial>0x7020eac9</serial>
+          <width>2560</width>
+          <height>1440</height>
+          <rate>60</rate>
+          <x>1200</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>yes</primary>
+      </output>
+      <output name="HDMI1">
+      </output>
+      <output name="HDMI2">
+      </output>
+      <output name="VIRTUAL1">
+      </output>
+  </configuration>
+  <configuration>
+      <clone>no</clone>
+      <output name="DP1">
+          <vendor>SAM</vendor>
+          <product>0x0839</product>
+          <serial>0x30313138</serial>
+          <width>1920</width>
+          <height>1200</height>
+          <rate>60</rate>
+          <x>0</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>yes</primary>
+      </output>
+      <output name="DP2">
+      </output>
+      <output name="HDMI1">
+      </output>
+      <output name="HDMI2">
+      </output>
+      <output name="VIRTUAL1">
+      </output>
+  </configuration>
+</monitors>

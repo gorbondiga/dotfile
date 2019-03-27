@@ -1,0 +1,15 @@
+[2019-02-28 14:32:16.548] [renderer1] [info] no standard startup: panel is active
+[2019-02-28 14:42:00.127] [renderer1] [error] Data tree node not found: Local: Error: Data tree node not found: Local
+    at i.e.getDataNode (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:1037:266)
+    at i.e.getNode (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:1034:78)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5155:615
+    at Array.every (<anonymous>)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5155:583
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-02-28 14:49:59.073] [renderer1] [error] Data tree node not found: Local: Error: Data tree node not found: Local
+    at i.e.getDataNode (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:1037:266)
+    at i.e.getNode (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:1034:78)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5155:615
+    at Array.every (<anonymous>)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5155:583
+    at process._tickCallback (internal/process/next_tick.js:68:7)

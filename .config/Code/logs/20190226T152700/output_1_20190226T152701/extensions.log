@@ -1,0 +1,16 @@
+(node:8320) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'addr' of undefined
+    at GoDebugSession.convertDebugVariableToProtocolVariable (/home/gbravoma/.vscode/extensions/ms-vscode.go-0.9.2/out/src/debugAdapter/goDebug.js:812:31)
+    at loadChildren.then (/home/gbravoma/.vscode/extensions/ms-vscode.go-0.9.2/out/src/debugAdapter/goDebug.js:924:63)
+(node:8320) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:8320) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.(node:8807) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'addr' of undefined
+    at GoDebugSession.convertDebugVariableToProtocolVariable (/home/gbravoma/.vscode/extensions/ms-vscode.go-0.9.2/out/src/debugAdapter/goDebug.js:812:31)
+    at loadChildren.then (/home/gbravoma/.vscode/extensions/ms-vscode.go-0.9.2/out/src/debugAdapter/goDebug.js:924:63)
+(node:8807) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:8807) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.(node:9012) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'addr' of undefined
+    at GoDebugSession.convertDebugVariableToProtocolVariable (/home/gbravoma/.vscode/extensions/ms-vscode.go-0.9.2/out/src/debugAdapter/goDebug.js:812:31)
+    at loadChildren.then (/home/gbravoma/.vscode/extensions/ms-vscode.go-0.9.2/out/src/debugAdapter/goDebug.js:924:63)
+(node:9012) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:9012) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.(node:9012) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'addr' of undefined
+    at GoDebugSession.convertDebugVariableToProtocolVariable (/home/gbravoma/.vscode/extensions/ms-vscode.go-0.9.2/out/src/debugAdapter/goDebug.js:812:31)
+    at loadChildren.then (/home/gbravoma/.vscode/extensions/ms-vscode.go-0.9.2/out/src/debugAdapter/goDebug.js:924:63)
+(node:9012) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)

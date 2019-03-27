@@ -1,0 +1,29 @@
+{
+    "telemetry.machineId": "024c84439ed80f9708a8bcc94c774ab69959af2b0ad175138d863b0a9d73ee54",
+    "theme": "vs-dark",
+    "themeBackground": "#1e1e1e",
+    "openedPathsList": {
+        "workspaces2": [
+            "file:///home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/accounting-historian-daemon"
+        ],
+        "files2": []
+    },
+    "windowsState": {
+        "openedWindows": [],
+        "lastActiveWindow": {
+            "workspace": {
+                "id": "1c3dc8c3bd3f8801a0cba48fcb671273",
+                "configPath": "/home/gbravoma/.config/Code/Workspaces/1551170028475/workspace.json"
+            },
+            "backupPath": "/home/gbravoma/.config/Code/Backups/1c3dc8c3bd3f8801a0cba48fcb671273",
+            "uiState": {
+                "mode": 1,
+                "x": 1202,
+                "y": 54,
+                "width": 2556,
+                "height": 1365
+            }
+        }
+    },
+    "pickerWorkingDir": "/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting"
+}

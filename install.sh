@@ -43,3 +43,12 @@ if [ ! -d ~/.vim/colors ]; then
 fi
 
 echo "export TERM=xterm-256color" >> ~/.bashrc;
+
+###################################
+# i3 configuration
+###################################
+if [ $(dpkg-query -W -f i3wm 2>/dev/null | grep -c "ok installed") != 0 ]; then
+    apt install i3
+fi
+# copy i3 config files into the configuration
+cp -r ~/dotfile/.config ~/.config;

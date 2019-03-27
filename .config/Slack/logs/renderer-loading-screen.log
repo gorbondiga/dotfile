@@ -1,0 +1,46 @@
+[03/12/19, 15:22:51:399] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[03/12/19, 15:22:51:399] info: ║      Slack 3.3.7, linux 4.4.0-116-generic on x64 at 03/12/19, 15:22:51:396      ║
+[03/12/19, 15:22:51:400] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[03/12/19, 15:22:51:557] info: Initializing local storage instance at path: /home/gbravoma/.config/Slack/local-settings.json
+[03/12/19, 15:22:52:238] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[03/12/19, 15:22:52:242] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[03/12/19, 15:22:52:834] info: Store: SET_NETWORK_STATUS online
+[03/12/19, 15:22:52:836] info: Store: MAIN_WINDOW_SHOWN
+[03/12/19, 15:22:52:852] info: Store: ADD_WINDOW
+{
+  "id": 3,
+  "type": "sign-in"
+}
+[03/13/19, 09:18:26:858] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[03/13/19, 09:18:26:858] info: ║      Slack 3.3.7, linux 4.4.0-116-generic on x64 at 03/13/19, 09:18:26:855      ║
+[03/13/19, 09:18:26:858] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[03/13/19, 09:18:26:996] info: Initializing local storage instance at path: /home/gbravoma/.config/Slack/local-settings.json
+[03/13/19, 09:18:27:720] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[03/13/19, 09:18:27:724] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[03/13/19, 09:18:28:269] info: Store: SET_NETWORK_STATUS online
+[03/13/19, 09:18:28:270] info: Store: MAIN_WINDOW_SHOWN
+[03/13/19, 09:18:28:293] info: Store: ADD_WINDOW
+{
+  "id": 3,
+  "type": "sign-in"
+}
+[03/13/19, 09:48:50:203] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[03/13/19, 09:48:50:204] info: ║      Slack 3.3.7, linux 4.4.0-116-generic on x64 at 03/13/19, 09:48:50:200      ║
+[03/13/19, 09:48:50:204] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[03/13/19, 09:48:50:327] info: Initializing local storage instance at path: /home/gbravoma/.config/Slack/local-settings.json
+[03/13/19, 09:48:50:892] info: Store: QUIT_APP
+[03/13/19, 09:48:50:910] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[03/13/19, 09:48:50:913] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[03/13/19, 09:48:58:781] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[03/13/19, 09:48:58:781] info: ║      Slack 3.3.7, linux 4.4.0-116-generic on x64 at 03/13/19, 09:48:58:776      ║
+[03/13/19, 09:48:58:781] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[03/13/19, 09:48:58:894] info: Initializing local storage instance at path: /home/gbravoma/.config/Slack/local-settings.json
+[03/13/19, 09:48:59:602] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[03/13/19, 09:48:59:604] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[03/13/19, 09:49:00:155] info: Store: SET_NETWORK_STATUS online
+[03/13/19, 09:49:00:158] info: Store: MAIN_WINDOW_SHOWN
+[03/13/19, 09:49:00:173] info: Store: ADD_WINDOW
+{
+  "id": 3,
+  "type": "sign-in"
+}

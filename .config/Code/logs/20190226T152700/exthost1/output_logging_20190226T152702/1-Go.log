@@ -1,0 +1,1440 @@
+/usr/local/go/src/runtime>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check .
+
+/usr/local/go/src/runtime>Finished running tool: /home/gbravoma/go/bin/golint
+/usr/local/go/src/runtime/alg.go:20: don't use underscores in Go names; const alg_NOEQ should be algNOEQ
+/usr/local/go/src/runtime/alg.go:21: don't use underscores in Go names; const alg_MEM0 should be algMEM0
+/usr/local/go/src/runtime/alg.go:22: don't use underscores in Go names; const alg_MEM8 should be algMEM8
+/usr/local/go/src/runtime/alg.go:23: don't use underscores in Go names; const alg_MEM16 should be algMEM16
+/usr/local/go/src/runtime/alg.go:24: don't use underscores in Go names; const alg_MEM32 should be algMEM32
+/usr/local/go/src/runtime/alg.go:25: don't use underscores in Go names; const alg_MEM64 should be algMEM64
+/usr/local/go/src/runtime/alg.go:26: don't use underscores in Go names; const alg_MEM128 should be algMEM128
+/usr/local/go/src/runtime/alg.go:27: don't use underscores in Go names; const alg_STRING should be algSTRING
+/usr/local/go/src/runtime/alg.go:28: don't use underscores in Go names; const alg_INTER should be algINTER
+/usr/local/go/src/runtime/alg.go:29: don't use underscores in Go names; const alg_NILINTER should be algNILINTER
+/usr/local/go/src/runtime/alg.go:30: don't use underscores in Go names; const alg_FLOAT32 should be algFLOAT32
+/usr/local/go/src/runtime/alg.go:31: don't use underscores in Go names; const alg_FLOAT64 should be algFLOAT64
+/usr/local/go/src/runtime/alg.go:32: don't use underscores in Go names; const alg_CPLX64 should be algCPLX64
+/usr/local/go/src/runtime/alg.go:33: don't use underscores in Go names; const alg_CPLX128 should be algCPLX128
+/usr/local/go/src/runtime/alg.go:34: don't use underscores in Go names; const alg_max should be algMax
+/usr/local/go/src/runtime/alg.go:65: don't use underscores in Go names; func memhash_varlen should be memhashVarlen
+/usr/local/go/src/runtime/alg.go:153: if block ends with a return statement, so drop this else and outdent its block
+/usr/local/go/src/runtime/alg.go:170: if block ends with a return statement, so drop this else and outdent its block
+/usr/local/go/src/runtime/atomic_pointer.go:56: don't use underscores in Go names; func sync_atomic_StoreUintptr should be syncAtomicStoreUintptr
+/usr/local/go/src/runtime/atomic_pointer.go:60: don't use underscores in Go names; func sync_atomic_StorePointer should be syncAtomicStorePointer
+/usr/local/go/src/runtime/atomic_pointer.go:68: don't use underscores in Go names; func sync_atomic_SwapUintptr should be syncAtomicSwapUintptr
+/usr/local/go/src/runtime/atomic_pointer.go:72: don't use underscores in Go names; func sync_atomic_SwapPointer should be syncAtomicSwapPointer
+/usr/local/go/src/runtime/atomic_pointer.go:81: don't use underscores in Go names; func sync_atomic_CompareAndSwapUintptr should be syncAtomicCompareAndSwapUintptr
+/usr/local/go/src/runtime/atomic_pointer.go:85: don't use underscores in Go names; func sync_atomic_CompareAndSwapPointer should be syncAtomicCompareAndSwapPointer
+/usr/local/go/src/runtime/cgo.go:22: don't use underscores in Go names; var _cgo_init should be _cgoInit
+/usr/local/go/src/runtime/cgo.go:23: don't use underscores in Go names; var _cgo_thread_start should be _cgoThreadStart
+/usr/local/go/src/runtime/cgo.go:24: don't use underscores in Go names; var _cgo_sys_thread_create should be _cgoSysThreadCreate
+/usr/local/go/src/runtime/cgo.go:25: don't use underscores in Go names; var _cgo_notify_runtime_init_done should be _cgoNotifyRuntimeInitDone
+/usr/local/go/src/runtime/cgo.go:26: don't use underscores in Go names; var _cgo_callers should be _cgoCallers
+/usr/local/go/src/runtime/cgo.go:27: don't use underscores in Go names; var _cgo_set_context_function should be _cgoSetContextFunction
+/usr/local/go/src/runtime/cgo.go:28: don't use underscores in Go names; var _cgo_yield should be _cgoYield
+/usr/local/go/src/runtime/cgo.go:54: don't use underscores in Go names; var cgo_yield should be cgoYield
+/usr/local/go/src/runtime/cgo_mmap.go:16: don't use underscores in Go names; var _cgo_mmap should be _cgoMmap
+/usr/local/go/src/runtime/cgo_mmap.go:21: don't use underscores in Go names; var _cgo_munmap should be _cgoMunmap
+/usr/local/go/src/runtime/cgo_sigaction.go:16: don't use underscores in Go names; var _cgo_sigaction should be _cgoSigaction
+/usr/local/go/src/runtime/cgocallback.go:11: don't use underscores in Go names; func _cgo_panic_internal should be _cgoPanicInternal
+/usr/local/go/src/runtime/chan.go:58: don't use underscores in Go names; func reflect_makechan should be reflectMakechan
+/usr/local/go/src/runtime/chan.go:660: don't use underscores in Go names; func reflect_chansend should be reflectChansend
+/usr/local/go/src/runtime/chan.go:665: don't use underscores in Go names; func reflect_chanrecv should be reflectChanrecv
+/usr/local/go/src/runtime/chan.go:670: don't use underscores in Go names; func reflect_chanlen should be reflectChanlen
+/usr/local/go/src/runtime/chan.go:678: don't use underscores in Go names; func reflect_chancap should be reflectChancap
+/usr/local/go/src/runtime/chan.go:686: don't use underscores in Go names; func reflect_chanclose should be reflectChanclose
+/usr/local/go/src/runtime/cpuprof.go:190: don't use underscores in Go names; func runtime_pprof_runtime_cyclesPerSecond should be runtimePprofRuntimeCyclesPerSecond
+/usr/local/go/src/runtime/cpuprof.go:201: don't use underscores in Go names; func runtime_pprof_readProfile should be runtimePprofReadProfile
+/usr/local/go/src/runtime/defs_linux_amd64.go:7: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:8: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:9: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:11: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:12: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:13: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:14: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:16: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:17: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:18: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:20: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:21: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:22: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:24: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:25: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:26: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:27: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:29: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:30: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:31: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:32: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:33: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:34: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:35: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:36: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:37: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:38: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:39: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:40: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:41: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:42: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:43: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:44: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:45: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:46: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:47: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:48: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:49: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:50: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:51: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:52: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:53: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:54: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:55: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:56: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:57: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:58: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:60: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:61: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:62: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:63: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:64: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:65: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:66: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:67: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:69: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:70: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:71: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:73: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:74: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:76: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:77: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:78: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:80: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:81: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:82: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:83: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:84: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:85: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:86: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:87: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:88: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:89: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:91: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:92: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:93: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:97: don't use underscores in Go names; struct field tv_sec should be tvSec
+/usr/local/go/src/runtime/defs_linux_amd64.go:98: don't use underscores in Go names; struct field tv_nsec should be tvNsec
+/usr/local/go/src/runtime/defs_linux_amd64.go:101: don't use underscores in Go names; method set_sec should be setSec
+/usr/local/go/src/runtime/defs_linux_amd64.go:105: don't use underscores in Go names; method set_nsec should be setNsec
+/usr/local/go/src/runtime/defs_linux_amd64.go:110: don't use underscores in Go names; struct field tv_sec should be tvSec
+/usr/local/go/src/runtime/defs_linux_amd64.go:111: don't use underscores in Go names; struct field tv_usec should be tvUsec
+/usr/local/go/src/runtime/defs_linux_amd64.go:114: don't use underscores in Go names; method set_usec should be setUsec
+/usr/local/go/src/runtime/defs_linux_amd64.go:119: don't use underscores in Go names; struct field sa_handler should be saHandler
+/usr/local/go/src/runtime/defs_linux_amd64.go:120: don't use underscores in Go names; struct field sa_flags should be saFlags
+/usr/local/go/src/runtime/defs_linux_amd64.go:121: don't use underscores in Go names; struct field sa_restorer should be saRestorer
+/usr/local/go/src/runtime/defs_linux_amd64.go:122: don't use underscores in Go names; struct field sa_mask should be saMask
+/usr/local/go/src/runtime/defs_linux_amd64.go:126: don't use underscores in Go names; struct field si_signo should be siSigno
+/usr/local/go/src/runtime/defs_linux_amd64.go:127: don't use underscores in Go names; struct field si_errno should be siErrno
+/usr/local/go/src/runtime/defs_linux_amd64.go:128: don't use underscores in Go names; struct field si_code should be siCode
+/usr/local/go/src/runtime/defs_linux_amd64.go:130: don't use underscores in Go names; struct field si_addr should be siAddr
+/usr/local/go/src/runtime/defs_linux_amd64.go:134: don't use underscores in Go names; struct field it_interval should be itInterval
+/usr/local/go/src/runtime/defs_linux_amd64.go:135: don't use underscores in Go names; struct field it_value should be itValue
+/usr/local/go/src/runtime/defs_linux_amd64.go:147: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:148: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/defs_linux_amd64.go:152: don't use underscores in Go names; struct field __val should be _Val
+/usr/local/go/src/runtime/defs_linux_amd64.go:173: don't use underscores in Go names; struct field mxcr_mask should be mxcrMask
+/usr/local/go/src/runtime/defs_linux_amd64.go:197: don't use underscores in Go names; struct field mxcr_mask should be mxcrMask
+/usr/local/go/src/runtime/defs_linux_amd64.go:209: don't use underscores in Go names; struct field ss_sp should be ssSp
+/usr/local/go/src/runtime/defs_linux_amd64.go:210: don't use underscores in Go names; struct field ss_flags should be ssFlags
+/usr/local/go/src/runtime/defs_linux_amd64.go:211: don't use underscores in Go names; struct field pad_cgo_0 should be padCgo0
+/usr/local/go/src/runtime/defs_linux_amd64.go:212: don't use underscores in Go names; struct field ss_size should be ssSize
+/usr/local/go/src/runtime/defs_linux_amd64.go:218: don't use underscores in Go names; struct field __reserved1 should be _Reserved1
+/usr/local/go/src/runtime/defs_linux_amd64.go:222: don't use underscores in Go names; struct field uc_flags should be ucFlags
+/usr/local/go/src/runtime/defs_linux_amd64.go:223: don't use underscores in Go names; struct field uc_link should be ucLink
+/usr/local/go/src/runtime/defs_linux_amd64.go:224: don't use underscores in Go names; struct field uc_stack should be ucStack
+/usr/local/go/src/runtime/defs_linux_amd64.go:225: don't use underscores in Go names; struct field uc_mcontext should be ucMcontext
+/usr/local/go/src/runtime/defs_linux_amd64.go:226: don't use underscores in Go names; struct field uc_sigmask should be ucSigmask
+/usr/local/go/src/runtime/defs_linux_amd64.go:227: don't use underscores in Go names; struct field __fpregs_mem should be _FpregsMem
+/usr/local/go/src/runtime/defs_linux_amd64.go:252: don't use underscores in Go names; struct field __pad0 should be _Pad0
+/usr/local/go/src/runtime/defs_linux_amd64.go:258: don't use underscores in Go names; struct field __reserved1 should be _Reserved1
+/usr/local/go/src/runtime/defs_linux_amd64.go:261: don't use underscores in Go names; type sockaddr_un should be sockaddrUn
+/usr/local/go/src/runtime/env_posix.go:24: don't use underscores in Go names; var _cgo_setenv should be _cgoSetenv
+/usr/local/go/src/runtime/env_posix.go:25: don't use underscores in Go names; var _cgo_unsetenv should be _cgoUnsetenv
+/usr/local/go/src/runtime/env_posix.go:30: don't use underscores in Go names; func syscall_setenv_c should be syscallSetenvC
+/usr/local/go/src/runtime/env_posix.go:41: don't use underscores in Go names; func syscall_unsetenv_c should be syscallUnsetenvC
+/usr/local/go/src/runtime/error.go:28: exported method TypeAssertionError.RuntimeError should have comment or be unexported
+/usr/local/go/src/runtime/export_mmap_test.go:15: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/export_mmap_test.go:16: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/export_mmap_test.go:17: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/export_test.go:58: don't use underscores in Go names; var _p_ should be _p
+/usr/local/go/src/runtime/export_test.go:451: exported func Getg returns unexported type *runtime.g, which can be annoying to use
+/usr/local/go/src/runtime/hash64.go:110: don't use underscores in Go names; func rotl_31 should be rotl31
+/usr/local/go/src/runtime/heapdump.go:20: don't use underscores in Go names; func runtime_debug_WriteHeapDump should be runtimeDebugWriteHeapDump
+/usr/local/go/src/runtime/heapdump.go:408: don't use underscores in Go names; func finq_callback should be finqCallback
+/usr/local/go/src/runtime/heapdump.go:516: don't use underscores in Go names; func itab_callback should be itabCallback
+/usr/local/go/src/runtime/heapdump.go:569: don't use underscores in Go names; func dumpmemprof_callback should be dumpmemprofCallback
+/usr/local/go/src/runtime/heapdump.go:658: don't use underscores in Go names; func writeheapdump_m should be writeheapdumpM
+/usr/local/go/src/runtime/heapdump.go:659: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/iface.go:571: don't use underscores in Go names; func reflect_ifaceE2I should be reflectIfaceE2I
+/usr/local/go/src/runtime/iface.go:575: don't use underscores in Go names; func iterate_itabs should be iterateItabs
+/usr/local/go/src/runtime/lock_futex.go:26: don't use underscores in Go names; const mutex_unlocked should be mutexUnlocked
+/usr/local/go/src/runtime/lock_futex.go:27: don't use underscores in Go names; const mutex_locked should be mutexLocked
+/usr/local/go/src/runtime/lock_futex.go:28: don't use underscores in Go names; const mutex_sleeping should be mutexSleeping
+/usr/local/go/src/runtime/lock_futex.go:30: don't use underscores in Go names; const active_spin should be activeSpin
+/usr/local/go/src/runtime/lock_futex.go:31: don't use underscores in Go names; const active_spin_cnt should be activeSpinCnt
+/usr/local/go/src/runtime/lock_futex.go:32: don't use underscores in Go names; const passive_spin should be passiveSpin
+/usr/local/go/src/runtime/lock_futex.go:164: don't use underscores in Go names; func notetsleep_internal should be notetsleepInternal
+/usr/local/go/src/runtime/malloc.go:388: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/malloc.go:1036: don't use underscores in Go names; func reflect_unsafe_New should be reflectUnsafeNew
+/usr/local/go/src/runtime/malloc.go:1052: don't use underscores in Go names; func reflect_unsafe_NewArray should be reflectUnsafeNewArray
+/usr/local/go/src/runtime/map.go:287: don't use underscores in Go names; func makemap_small should be makemapSmall
+/usr/local/go/src/runtime/map.go:532: don't use underscores in Go names; func mapaccess1_fat should be mapaccess1Fat
+/usr/local/go/src/runtime/map.go:540: don't use underscores in Go names; func mapaccess2_fat should be mapaccess2Fat
+/usr/local/go/src/runtime/map.go:1209: don't use underscores in Go names; func reflect_makemap should be reflectMakemap
+/usr/local/go/src/runtime/map.go:1248: don't use underscores in Go names; func reflect_mapaccess should be reflectMapaccess
+/usr/local/go/src/runtime/map.go:1258: don't use underscores in Go names; func reflect_mapassign should be reflectMapassign
+/usr/local/go/src/runtime/map.go:1264: don't use underscores in Go names; func reflect_mapdelete should be reflectMapdelete
+/usr/local/go/src/runtime/map.go:1269: don't use underscores in Go names; func reflect_mapiterinit should be reflectMapiterinit
+/usr/local/go/src/runtime/map.go:1276: don't use underscores in Go names; func reflect_mapiternext should be reflectMapiternext
+/usr/local/go/src/runtime/map.go:1281: don't use underscores in Go names; func reflect_mapiterkey should be reflectMapiterkey
+/usr/local/go/src/runtime/map.go:1286: don't use underscores in Go names; func reflect_maplen should be reflectMaplen
+/usr/local/go/src/runtime/map.go:1298: don't use underscores in Go names; func reflect_ismapkey should be reflectIsmapkey
+/usr/local/go/src/runtime/map_fast32.go:12: don't use underscores in Go names; func mapaccess1_fast32 should be mapaccess1Fast32
+/usr/local/go/src/runtime/map_fast32.go:52: don't use underscores in Go names; func mapaccess2_fast32 should be mapaccess2Fast32
+/usr/local/go/src/runtime/map_fast32.go:92: don't use underscores in Go names; func mapassign_fast32 should be mapassignFast32
+/usr/local/go/src/runtime/map_fast32.go:178: don't use underscores in Go names; func mapassign_fast32ptr should be mapassignFast32ptr
+/usr/local/go/src/runtime/map_fast32.go:264: don't use underscores in Go names; func mapdelete_fast32 should be mapdeleteFast32
+/usr/local/go/src/runtime/map_fast32.go:314: don't use underscores in Go names; func growWork_fast32 should be growWorkFast32
+/usr/local/go/src/runtime/map_fast32.go:325: don't use underscores in Go names; func evacuate_fast32 should be evacuateFast32
+/usr/local/go/src/runtime/map_fast64.go:12: don't use underscores in Go names; func mapaccess1_fast64 should be mapaccess1Fast64
+/usr/local/go/src/runtime/map_fast64.go:52: don't use underscores in Go names; func mapaccess2_fast64 should be mapaccess2Fast64
+/usr/local/go/src/runtime/map_fast64.go:92: don't use underscores in Go names; func mapassign_fast64 should be mapassignFast64
+/usr/local/go/src/runtime/map_fast64.go:178: don't use underscores in Go names; func mapassign_fast64ptr should be mapassignFast64ptr
+/usr/local/go/src/runtime/map_fast64.go:264: don't use underscores in Go names; func mapdelete_fast64 should be mapdeleteFast64
+/usr/local/go/src/runtime/map_fast64.go:314: don't use underscores in Go names; func growWork_fast64 should be growWorkFast64
+/usr/local/go/src/runtime/map_fast64.go:325: don't use underscores in Go names; func evacuate_fast64 should be evacuateFast64
+/usr/local/go/src/runtime/map_faststr.go:12: don't use underscores in Go names; func mapaccess1_faststr should be mapaccess1Faststr
+/usr/local/go/src/runtime/map_faststr.go:101: don't use underscores in Go names; func mapaccess2_faststr should be mapaccess2Faststr
+/usr/local/go/src/runtime/map_faststr.go:190: don't use underscores in Go names; func mapassign_faststr should be mapassignFaststr
+/usr/local/go/src/runtime/map_faststr.go:281: don't use underscores in Go names; func mapdelete_faststr should be mapdeleteFaststr
+/usr/local/go/src/runtime/map_faststr.go:335: don't use underscores in Go names; func growWork_faststr should be growWorkFaststr
+/usr/local/go/src/runtime/map_faststr.go:346: don't use underscores in Go names; func evacuate_faststr should be evacuateFaststr
+/usr/local/go/src/runtime/mbarrier.go:177: don't use underscores in Go names; func reflect_typedmemmove should be reflectTypedmemmove
+/usr/local/go/src/runtime/mbarrier.go:192: don't use underscores in Go names; func reflect_typedmemmovepartial should be reflectTypedmemmovepartial
+/usr/local/go/src/runtime/mbarrier.go:279: don't use underscores in Go names; func reflect_typedslicecopy should be reflectTypedslicecopy
+/usr/local/go/src/runtime/mbarrier.go:324: don't use underscores in Go names; func reflect_typedmemclr should be reflectTypedmemclr
+/usr/local/go/src/runtime/mbarrier.go:329: don't use underscores in Go names; func reflect_typedmemclrpartial should be reflectTypedmemclrpartial
+/usr/local/go/src/runtime/mbitmap.go:1944: don't use underscores in Go names; func reflect_gcbits should be reflectGcbits
+/usr/local/go/src/runtime/mbitmap.go:2005: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/mbitmap.go:2008: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/mcache.go:19: don't use underscores in Go names; struct field next_sample should be nextSample
+/usr/local/go/src/runtime/mcache.go:20: don't use underscores in Go names; struct field local_scan should be localScan
+/usr/local/go/src/runtime/mcache.go:33: don't use underscores in Go names; struct field local_tinyallocs should be localTinyallocs
+/usr/local/go/src/runtime/mcache.go:42: don't use underscores in Go names; struct field local_largefree should be localLargefree
+/usr/local/go/src/runtime/mcache.go:43: don't use underscores in Go names; struct field local_nlargefree should be localNlargefree
+/usr/local/go/src/runtime/mcache.go:44: don't use underscores in Go names; struct field local_nsmallfree should be localNsmallfree
+/usr/local/go/src/runtime/mcache.go:107: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/mem_linux.go:13: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/mem_linux.go:14: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/mfinal.go:127: don't use underscores in Go names; func iterate_finq should be iterateFinq
+/usr/local/go/src/runtime/mgc.go:625: don't use underscores in Go names; var H_m_prev should be HMPrev
+/usr/local/go/src/runtime/mgc.go:626: don't use underscores in Go names; var h_t should be hT
+/usr/local/go/src/runtime/mgc.go:627: don't use underscores in Go names; var H_T should be HT
+/usr/local/go/src/runtime/mgc.go:628: don't use underscores in Go names; var h_a should be hA
+/usr/local/go/src/runtime/mgc.go:629: don't use underscores in Go names; var H_a should be HA
+/usr/local/go/src/runtime/mgc.go:630: don't use underscores in Go names; var h_g should be hG
+/usr/local/go/src/runtime/mgc.go:631: don't use underscores in Go names; var H_g should be HG
+/usr/local/go/src/runtime/mgc.go:632: don't use underscores in Go names; var u_a should be uA
+/usr/local/go/src/runtime/mgc.go:633: don't use underscores in Go names; var u_g should be uG
+/usr/local/go/src/runtime/mgc.go:634: don't use underscores in Go names; var W_a should be WA
+/usr/local/go/src/runtime/mgc.go:695: don't use underscores in Go names; method parameter _p_ should be _p
+/usr/local/go/src/runtime/mgc.go:1526: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/mgc.go:1612: var sweepTermCpu should be sweepTermCPU
+/usr/local/go/src/runtime/mgc.go:1615: var markCpu should be markCPU
+/usr/local/go/src/runtime/mgc.go:1616: var markTermCpu should be markTermCPU
+/usr/local/go/src/runtime/mgc.go:1617: var cycleCpu should be cycleCPU
+/usr/local/go/src/runtime/mgc.go:1621: var totalCpu should be totalCPU
+/usr/local/go/src/runtime/mgc.go:1743: don't use underscores in Go names; func parameter _p_ should be _p
+/usr/local/go/src/runtime/mgc.go:1943: don't use underscores in Go names; func parameter start_time should be startTime
+/usr/local/go/src/runtime/mgc.go:2116: don't use underscores in Go names; func sync_runtime_registerPoolCleanup should be syncRuntimeRegisterPoolCleanup
+/usr/local/go/src/runtime/mgc.go:2164: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/mgc.go:2187: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/mgcmark.go:592: don't use underscores in Go names; var _p_ should be _p
+/usr/local/go/src/runtime/mgcsweep.go:33: don't use underscores in Go names; func finishsweep_m should be finishsweepM
+/usr/local/go/src/runtime/mgcsweep.go:79: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/mgcsweep.go:153: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/mgcsweep.go:182: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/mheap.go:159: don't use underscores in Go names; var mheap_ should be mheap
+/usr/local/go/src/runtime/mheap.go:446: if block ends with a return statement, so drop this else and outdent its block
+/usr/local/go/src/runtime/mheap.go:454: if block ends with a return statement, so drop this else and outdent its block
+/usr/local/go/src/runtime/mheap.go:660: don't use underscores in Go names; method alloc_m should be allocM
+/usr/local/go/src/runtime/mheap.go:661: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/mheap.go:1172: don't use underscores in Go names; func runtime_debug_freeOSMemory should be runtimeDebugFreeOSMemory
+/usr/local/go/src/runtime/mheap.go:1178: receiver name span should be consistent with previous receiver name s for mspan
+/usr/local/go/src/runtime/mheap.go:1200: receiver name span should be consistent with previous receiver name s for mspan
+/usr/local/go/src/runtime/mprof.go:122: don't use underscores in Go names; struct field alloc_bytes should be allocBytes
+/usr/local/go/src/runtime/mprof.go:122: don't use underscores in Go names; struct field free_bytes should be freeBytes
+/usr/local/go/src/runtime/mprof.go:279: don't use underscores in Go names; func mProf_NextCycle should be mProfNextCycle
+/usr/local/go/src/runtime/mprof.go:296: don't use underscores in Go names; func mProf_Flush should be mProfFlush
+/usr/local/go/src/runtime/mprof.go:305: don't use underscores in Go names; func mProf_FlushLocked should be mProfFlushLocked
+/usr/local/go/src/runtime/mprof.go:322: don't use underscores in Go names; func mProf_PostSweep should be mProfPostSweep
+/usr/local/go/src/runtime/mprof.go:340: don't use underscores in Go names; func mProf_Malloc should be mProfMalloc
+/usr/local/go/src/runtime/mprof.go:362: don't use underscores in Go names; func mProf_Free should be mProfFree
+/usr/local/go/src/runtime/mprof.go:493: should omit type int from declaration of var MemProfileRate; it will be inferred from the right-hand side
+/usr/local/go/src/runtime/mprof.go:610: don't use underscores in Go names; func iterate_memprof should be iterateMemprof
+/usr/local/go/src/runtime/msize.go:17: if block ends with a return statement, so drop this else and outdent its block
+/usr/local/go/src/runtime/mstats.go:27: don't use underscores in Go names; struct field total_alloc should be totalAlloc
+/usr/local/go/src/runtime/mstats.go:38: don't use underscores in Go names; struct field heap_alloc should be heapAlloc
+/usr/local/go/src/runtime/mstats.go:39: don't use underscores in Go names; struct field heap_sys should be heapSys
+/usr/local/go/src/runtime/mstats.go:40: don't use underscores in Go names; struct field heap_idle should be heapIdle
+/usr/local/go/src/runtime/mstats.go:41: don't use underscores in Go names; struct field heap_inuse should be heapInuse
+/usr/local/go/src/runtime/mstats.go:42: don't use underscores in Go names; struct field heap_released should be heapReleased
+/usr/local/go/src/runtime/mstats.go:43: don't use underscores in Go names; struct field heap_objects should be heapObjects
+/usr/local/go/src/runtime/mstats.go:61: don't use underscores in Go names; struct field stacks_inuse should be stacksInuse
+/usr/local/go/src/runtime/mstats.go:62: don't use underscores in Go names; struct field stacks_sys should be stacksSys
+/usr/local/go/src/runtime/mstats.go:63: don't use underscores in Go names; struct field mspan_inuse should be mspanInuse
+/usr/local/go/src/runtime/mstats.go:64: don't use underscores in Go names; struct field mspan_sys should be mspanSys
+/usr/local/go/src/runtime/mstats.go:65: don't use underscores in Go names; struct field mcache_inuse should be mcacheInuse
+/usr/local/go/src/runtime/mstats.go:66: don't use underscores in Go names; struct field mcache_sys should be mcacheSys
+/usr/local/go/src/runtime/mstats.go:67: don't use underscores in Go names; struct field buckhash_sys should be buckhashSys
+/usr/local/go/src/runtime/mstats.go:68: don't use underscores in Go names; struct field gc_sys should be gcSys
+/usr/local/go/src/runtime/mstats.go:69: don't use underscores in Go names; struct field other_sys should be otherSys
+/usr/local/go/src/runtime/mstats.go:73: don't use underscores in Go names; struct field next_gc should be nextGc
+/usr/local/go/src/runtime/mstats.go:74: don't use underscores in Go names; struct field last_gc_unix should be lastGcUnix
+/usr/local/go/src/runtime/mstats.go:75: don't use underscores in Go names; struct field pause_total_ns should be pauseTotalNs
+/usr/local/go/src/runtime/mstats.go:76: don't use underscores in Go names; struct field pause_ns should be pauseNs
+/usr/local/go/src/runtime/mstats.go:77: don't use underscores in Go names; struct field pause_end should be pauseEnd
+/usr/local/go/src/runtime/mstats.go:80: don't use underscores in Go names; struct field gc_cpu_fraction should be gcCPUFraction
+/usr/local/go/src/runtime/mstats.go:86: don't use underscores in Go names; struct field by_size should be bySize
+/usr/local/go/src/runtime/mstats.go:94: don't use underscores in Go names; struct field last_gc_nanotime should be lastGcNanotime
+/usr/local/go/src/runtime/mstats.go:114: don't use underscores in Go names; struct field gc_trigger should be gcTrigger
+/usr/local/go/src/runtime/mstats.go:140: don't use underscores in Go names; struct field heap_live should be heapLive
+/usr/local/go/src/runtime/mstats.go:147: don't use underscores in Go names; struct field heap_scan should be heapScan
+/usr/local/go/src/runtime/mstats.go:153: don't use underscores in Go names; struct field heap_marked should be heapMarked
+/usr/local/go/src/runtime/mstats.go:436: don't use underscores in Go names; var sizeof_C_MStats should be sizeofCMStats
+/usr/local/go/src/runtime/mstats.go:467: don't use underscores in Go names; func readmemstats_m should be readmemstatsM
+/usr/local/go/src/runtime/mstats.go:487: don't use underscores in Go names; func readGCStats_m should be readGCStatsM
+/usr/local/go/src/runtime/mwbbuf.go:209: don't use underscores in Go names; func parameter _p_ should be _p
+/usr/local/go/src/runtime/netpoll.go:86: don't use underscores in Go names; func poll_runtime_pollServerInit should be pollRuntimePollServerInit
+/usr/local/go/src/runtime/netpoll.go:99: don't use underscores in Go names; func poll_runtime_pollServerDescriptor should be pollRuntimePollServerDescriptor
+/usr/local/go/src/runtime/netpoll.go:104: don't use underscores in Go names; func poll_runtime_pollOpen should be pollRuntimePollOpen
+/usr/local/go/src/runtime/netpoll.go:128: don't use underscores in Go names; func poll_runtime_pollClose should be pollRuntimePollClose
+/usr/local/go/src/runtime/netpoll.go:150: don't use underscores in Go names; func poll_runtime_pollReset should be pollRuntimePollReset
+/usr/local/go/src/runtime/netpoll.go:164: don't use underscores in Go names; func poll_runtime_pollWait should be pollRuntimePollWait
+/usr/local/go/src/runtime/netpoll.go:186: don't use underscores in Go names; func poll_runtime_pollWaitCanceled should be pollRuntimePollWaitCanceled
+/usr/local/go/src/runtime/netpoll.go:194: don't use underscores in Go names; func poll_runtime_pollSetDeadline should be pollRuntimePollSetDeadline
+/usr/local/go/src/runtime/netpoll.go:264: don't use underscores in Go names; func poll_runtime_pollUnblock should be pollRuntimePollUnblock
+/usr/local/go/src/runtime/os_linux.go:27: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux.go:28: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux.go:29: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux.go:113: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux.go:114: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux.go:115: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux.go:116: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux.go:117: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux.go:118: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux.go:119: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux.go:120: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux.go:121: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux.go:122: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux.go:123: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux.go:124: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux.go:125: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux.go:126: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux.go:127: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux.go:128: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux.go:129: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux.go:130: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux.go:189: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux.go:190: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux.go:191: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux.go:192: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux.go:193: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux.go:198: don't use underscores in Go names; var addrspace_vec should be addrspaceVec
+/usr/local/go/src/runtime/os_linux.go:281: don't use underscores in Go names; var urandom_dev should be urandomDev
+/usr/local/go/src/runtime/os_linux.go:359: don't use underscores in Go names; func sched_getaffinity should be schedGetaffinity
+/usr/local/go/src/runtime/os_linux.go:440: don't use underscores in Go names; func rt_sigaction should be rtSigaction
+/usr/local/go/src/runtime/os_linux_generic.go:16: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux_generic.go:17: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux_generic.go:18: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux_generic.go:19: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux_generic.go:20: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux_generic.go:21: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/os_linux_generic.go:29: don't use underscores in Go names; var sigset_all should be sigsetAll
+/usr/local/go/src/runtime/panic.go:593: don't use underscores in Go names; func sync_throw should be syncThrow
+/usr/local/go/src/runtime/panic.go:727: don't use underscores in Go names; func startpanic_m should be startpanicM
+/usr/local/go/src/runtime/panic.go:728: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/panic.go:778: don't use underscores in Go names; func dopanic_m should be dopanicM
+/usr/local/go/src/runtime/panic.go:790: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/panic.go:830: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/panic.go:831: don't use underscores in Go names; var _m_ should be _m
+/usr/local/go/src/runtime/plugin.go:10: don't use underscores in Go names; func plugin_lastmoduleinit should be pluginLastmoduleinit
+/usr/local/go/src/runtime/proc.go:86: don't use underscores in Go names; func runtime_init should be runtimeInit
+/usr/local/go/src/runtime/proc.go:89: don't use underscores in Go names; func main_init should be mainInit
+/usr/local/go/src/runtime/proc.go:95: don't use underscores in Go names; var main_init_done should be mainInitDone
+/usr/local/go/src/runtime/proc.go:98: don't use underscores in Go names; func main_main should be mainMain
+/usr/local/go/src/runtime/proc.go:232: don't use underscores in Go names; func os_beforeExit should be osBeforeExit
+/usr/local/go/src/runtime/proc.go:481: don't use underscores in Go names; func internal_cpu_initialize should be internalCPUInitialize
+/usr/local/go/src/runtime/proc.go:484: don't use underscores in Go names; var internal_cpu_debugOptions should be internalCPUDebugOptions
+/usr/local/go/src/runtime/proc.go:535: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:589: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:603: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:653: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:705: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:787: don't use underscores in Go names; func casfrom_Gscanstatus should be casfromGscanstatus
+/usr/local/go/src/runtime/proc.go:1066: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:1142: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:1147: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:1230: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:1261: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:1418: don't use underscores in Go names; var _p_ should be _p
+/usr/local/go/src/runtime/proc.go:1544: don't use underscores in Go names; func parameter _p_ should be _p
+/usr/local/go/src/runtime/proc.go:1545: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:1673: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:1890: don't use underscores in Go names; func parameter _p_ should be _p
+/usr/local/go/src/runtime/proc.go:2000: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:2042: don't use underscores in Go names; func parameter _p_ should be _p
+/usr/local/go/src/runtime/proc.go:2087: don't use underscores in Go names; func parameter _p_ should be _p
+/usr/local/go/src/runtime/proc.go:2153: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:2160: don't use underscores in Go names; var _p_ should be _p
+/usr/local/go/src/runtime/proc.go:2181: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:2192: don't use underscores in Go names; var _p_ should be _p
+/usr/local/go/src/runtime/proc.go:2201: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:2214: don't use underscores in Go names; var _p_ should be _p
+/usr/local/go/src/runtime/proc.go:2235: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:2268: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:2275: don't use underscores in Go names; var _p_ should be _p
+/usr/local/go/src/runtime/proc.go:2424: don't use underscores in Go names; range var _p_ should be _p
+/usr/local/go/src/runtime/proc.go:2513: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:2558: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:2641: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:2647: don't use underscores in Go names; func parkunlock_c should be parkunlockC
+/usr/local/go/src/runtime/proc.go:2653: don't use underscores in Go names; func park_m should be parkM
+/usr/local/go/src/runtime/proc.go:2654: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:2695: don't use underscores in Go names; func gosched_m should be goschedM
+/usr/local/go/src/runtime/proc.go:2703: don't use underscores in Go names; func goschedguarded_m should be goschedguardedM
+/usr/local/go/src/runtime/proc.go:2715: don't use underscores in Go names; func gopreempt_m should be gopreemptM
+/usr/local/go/src/runtime/proc.go:2735: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:2802: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:2855: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:2918: don't use underscores in Go names; func entersyscall_sysmon should be entersyscallSysmon
+/usr/local/go/src/runtime/proc.go:2927: don't use underscores in Go names; func entersyscall_gcwait should be entersyscallGcwait
+/usr/local/go/src/runtime/proc.go:2928: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:2929: don't use underscores in Go names; var _p_ should be _p
+/usr/local/go/src/runtime/proc.go:2948: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:2988: don't use underscores in Go names; func entersyscallblock_handoff should be entersyscallblockHandoff
+/usr/local/go/src/runtime/proc.go:3006: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:3080: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:3131: don't use underscores in Go names; func exitsyscallfast_reacquired should be exitsyscallfastReacquired
+/usr/local/go/src/runtime/proc.go:3132: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:3151: don't use underscores in Go names; func exitsyscallfast_pidle should be exitsyscallfastPidle
+/usr/local/go/src/runtime/proc.go:3153: don't use underscores in Go names; var _p_ should be _p
+/usr/local/go/src/runtime/proc.go:3171: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:3176: don't use underscores in Go names; var _p_ should be _p
+/usr/local/go/src/runtime/proc.go:3217: don't use underscores in Go names; func syscall_runtime_BeforeFork should be syscallRuntimeBeforeFork
+/usr/local/go/src/runtime/proc.go:3235: don't use underscores in Go names; func syscall_runtime_AfterFork should be syscallRuntimeAfterFork
+/usr/local/go/src/runtime/proc.go:3254: don't use underscores in Go names; func syscall_runtime_AfterForkInChild should be syscallRuntimeAfterForkInChild
+/usr/local/go/src/runtime/proc.go:3272: don't use underscores in Go names; func syscall_runtime_BeforeExec should be syscallRuntimeBeforeExec
+/usr/local/go/src/runtime/proc.go:3279: don't use underscores in Go names; func syscall_runtime_AfterExec should be syscallRuntimeAfterExec
+/usr/local/go/src/runtime/proc.go:3317: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:3335: don't use underscores in Go names; var _p_ should be _p
+/usr/local/go/src/runtime/proc.go:3458: don't use underscores in Go names; func parameter _p_ should be _p
+/usr/local/go/src/runtime/proc.go:3497: don't use underscores in Go names; func parameter _p_ should be _p
+/usr/local/go/src/runtime/proc.go:3543: don't use underscores in Go names; func parameter _p_ should be _p
+/usr/local/go/src/runtime/proc.go:3574: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:3602: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:3625: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:3648: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:3658: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:3672: don't use underscores in Go names; range var _p_ should be _p
+/usr/local/go/src/runtime/proc.go:3698: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/proc.go:3939: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:4106: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:4141: should omit type *int32 from declaration of var int32p; it will be inferred from the right-hand side
+/usr/local/go/src/runtime/proc.go:4152: don't use underscores in Go names; func parameter _p_ should be _p
+/usr/local/go/src/runtime/proc.go:4157: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:4170: don't use underscores in Go names; func parameter _p_ should be _p
+/usr/local/go/src/runtime/proc.go:4171: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:4191: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:4196: don't use underscores in Go names; var _p_ should be _p
+/usr/local/go/src/runtime/proc.go:4286: don't use underscores in Go names; var _p_ should be _p
+/usr/local/go/src/runtime/proc.go:4452: don't use underscores in Go names; var _p_ should be _p
+/usr/local/go/src/runtime/proc.go:4517: don't use underscores in Go names; range var _p_ should be _p
+/usr/local/go/src/runtime/proc.go:4538: don't use underscores in Go names; func parameter _p_ should be _p
+/usr/local/go/src/runtime/proc.go:4574: don't use underscores in Go names; range var _p_ should be _p
+/usr/local/go/src/runtime/proc.go:4604: don't use underscores in Go names; var _p_ should be _p
+/usr/local/go/src/runtime/proc.go:4708: don't use underscores in Go names; func parameter _p_ should be _p
+/usr/local/go/src/runtime/proc.go:4744: don't use underscores in Go names; func parameter _p_ should be _p
+/usr/local/go/src/runtime/proc.go:4758: don't use underscores in Go names; var _p_ should be _p
+/usr/local/go/src/runtime/proc.go:4768: don't use underscores in Go names; func parameter _p_ should be _p
+/usr/local/go/src/runtime/proc.go:4799: don't use underscores in Go names; func parameter _p_ should be _p
+/usr/local/go/src/runtime/proc.go:4834: don't use underscores in Go names; func parameter _p_ should be _p
+/usr/local/go/src/runtime/proc.go:4874: don't use underscores in Go names; func parameter _p_ should be _p
+/usr/local/go/src/runtime/proc.go:4903: don't use underscores in Go names; func parameter _p_ should be _p
+/usr/local/go/src/runtime/proc.go:4958: don't use underscores in Go names; func parameter _p_ should be _p
+/usr/local/go/src/runtime/proc.go:5016: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:5025: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/proc.go:5031: don't use underscores in Go names; func sync_runtime_procPin should be syncRuntimeProcPin
+/usr/local/go/src/runtime/proc.go:5037: don't use underscores in Go names; func sync_runtime_procUnpin should be syncRuntimeProcUnpin
+/usr/local/go/src/runtime/proc.go:5043: don't use underscores in Go names; func sync_atomic_runtime_procPin should be syncAtomicRuntimeProcPin
+/usr/local/go/src/runtime/proc.go:5049: don't use underscores in Go names; func sync_atomic_runtime_procUnpin should be syncAtomicRuntimeProcUnpin
+/usr/local/go/src/runtime/proc.go:5056: don't use underscores in Go names; func sync_runtime_canSpin should be syncRuntimeCanSpin
+/usr/local/go/src/runtime/proc.go:5073: don't use underscores in Go names; func sync_runtime_doSpin should be syncRuntimeDoSpin
+/usr/local/go/src/runtime/proflabel.go:12: don't use underscores in Go names; func runtime_setProfLabel should be runtimeSetProfLabel
+/usr/local/go/src/runtime/proflabel.go:38: don't use underscores in Go names; func runtime_getProfLabel should be runtimeGetProfLabel
+/usr/local/go/src/runtime/rdebug.go:18: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/runtime.go:53: don't use underscores in Go names; func syscall_runtime_envs should be syscallRuntimeEnvs
+/usr/local/go/src/runtime/runtime.go:56: don't use underscores in Go names; func syscall_Getpagesize should be syscallGetpagesize
+/usr/local/go/src/runtime/runtime.go:59: don't use underscores in Go names; func os_runtime_args should be osRuntimeArgs
+/usr/local/go/src/runtime/runtime.go:63: don't use underscores in Go names; func syscall_Exit should be syscallExit
+/usr/local/go/src/runtime/runtime1.go:24: don't use underscores in Go names; var traceback_cache should be tracebackCache
+/usr/local/go/src/runtime/runtime1.go:25: don't use underscores in Go names; var traceback_env should be tracebackEnv
+/usr/local/go/src/runtime/runtime1.go:37: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/runtime1.go:56: don't use underscores in Go names; func argv_index should be argvIndex
+/usr/local/go/src/runtime/runtime1.go:76: don't use underscores in Go names; func goenvs_unix should be goenvsUnix
+/usr/local/go/src/runtime/runtime1.go:97: don't use underscores in Go names; var test_z64 should be testZ64
+/usr/local/go/src/runtime/runtime1.go:97: don't use underscores in Go names; var test_x64 should be testX64
+/usr/local/go/src/runtime/runtime1.go:453: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/runtime1.go:460: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/runtime1.go:474: don't use underscores in Go names; func reflect_typelinks should be reflectTypelinks
+/usr/local/go/src/runtime/runtime1.go:487: don't use underscores in Go names; func reflect_resolveNameOff should be reflectResolveNameOff
+/usr/local/go/src/runtime/runtime1.go:493: don't use underscores in Go names; func reflect_resolveTypeOff should be reflectResolveTypeOff
+/usr/local/go/src/runtime/runtime1.go:499: don't use underscores in Go names; func reflect_resolveTextOff should be reflectResolveTextOff
+/usr/local/go/src/runtime/runtime1.go:506: don't use underscores in Go names; func reflect_addReflectOff should be reflectAddReflectOff
+/usr/local/go/src/runtime/runtime2.go:55: don't use underscores in Go names; const _Gmoribund_unused should be _GmoribundUnused
+/usr/local/go/src/runtime/runtime2.go:66: don't use underscores in Go names; const _Genqueue_unused should be _GenqueueUnused
+/usr/local/go/src/runtime/runtime2.go:845: don't use underscores in Go names; var support_erms should be supportErms
+/usr/local/go/src/runtime/runtime2.go:846: don't use underscores in Go names; var support_popcnt should be supportPopcnt
+/usr/local/go/src/runtime/runtime2.go:847: don't use underscores in Go names; var support_sse2 should be supportSse2
+/usr/local/go/src/runtime/runtime2.go:848: don't use underscores in Go names; var support_sse41 should be supportSse41
+/usr/local/go/src/runtime/runtime2.go:849: don't use underscores in Go names; var arm64_support_atomics should be arm64SupportAtomics
+/usr/local/go/src/runtime/runtime2.go:852: don't use underscores in Go names; var framepointer_enabled should be framepointerEnabled
+/usr/local/go/src/runtime/rwmutex.go:45: should replace rw.readerPass -= 1 with rw.readerPass--
+/usr/local/go/src/runtime/rwmutex.go:117: should replace r -= 1 with r--
+/usr/local/go/src/runtime/select.go:521: don't use underscores in Go names; func reflect_rselect should be reflectRselect
+/usr/local/go/src/runtime/sema.go:55: don't use underscores in Go names; func sync_runtime_Semacquire should be syncRuntimeSemacquire
+/usr/local/go/src/runtime/sema.go:60: don't use underscores in Go names; func poll_runtime_Semacquire should be pollRuntimeSemacquire
+/usr/local/go/src/runtime/sema.go:65: don't use underscores in Go names; func sync_runtime_Semrelease should be syncRuntimeSemrelease
+/usr/local/go/src/runtime/sema.go:70: don't use underscores in Go names; func sync_runtime_SemacquireMutex should be syncRuntimeSemacquireMutex
+/usr/local/go/src/runtime/sema.go:75: don't use underscores in Go names; func poll_runtime_Semrelease should be pollRuntimeSemrelease
+/usr/local/go/src/runtime/sema.go:612: don't use underscores in Go names; func sync_nanotime should be syncNanotime
+/usr/local/go/src/runtime/signal_linux_amd64.go:51: don't use underscores in Go names; method set_rip should be setRip
+/usr/local/go/src/runtime/signal_linux_amd64.go:52: don't use underscores in Go names; method set_rsp should be setRsp
+/usr/local/go/src/runtime/signal_linux_amd64.go:53: don't use underscores in Go names; method set_sigcode should be setSigcode
+/usr/local/go/src/runtime/signal_linux_amd64.go:54: don't use underscores in Go names; method set_sigaddr should be setSigaddr
+/usr/local/go/src/runtime/signal_sighandler.go:34: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/signal_unix.go:25: don't use underscores in Go names; func os_sigpipe should be osSigpipe
+/usr/local/go/src/runtime/signal_unix.go:37: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/signal_unix.go:38: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/signal_unix.go:266: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/signal_unix.go:728: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/sigqueue.go:121: don't use underscores in Go names; func signal_recv should be signalRecv
+/usr/local/go/src/runtime/sigqueue.go:185: don't use underscores in Go names; func signal_enable should be signalEnable
+/usr/local/go/src/runtime/sigqueue.go:212: don't use underscores in Go names; func signal_disable should be signalDisable
+/usr/local/go/src/runtime/sigqueue.go:225: don't use underscores in Go names; func signal_ignore should be signalIgnore
+/usr/local/go/src/runtime/sigqueue.go:252: don't use underscores in Go names; func signal_ignored should be signalIgnored
+/usr/local/go/src/runtime/stack.go:292: don't use underscores in Go names; func stackcache_clear should be stackcacheClear
+/usr/local/go/src/runtime/stubs.go:81: don't use underscores in Go names; func reflect_memclrNoHeapPointers should be reflectMemclrNoHeapPointers
+/usr/local/go/src/runtime/stubs.go:91: don't use underscores in Go names; func reflect_memmove should be reflectMemmove
+/usr/local/go/src/runtime/stubs.go:121: don't use underscores in Go names; func sync_fastrand should be syncFastrand
+/usr/local/go/src/runtime/stubs.go:181: don't use underscores in Go names; func cgocallback_gofunc should be cgocallbackGofunc
+/usr/local/go/src/runtime/stubs.go:253: don't use underscores in Go names; func morestack_noctxt should be morestackNoctxt
+/usr/local/go/src/runtime/stubs.go:254: don't use underscores in Go names; func rt0_go should be rt0Go
+/usr/local/go/src/runtime/stubs.go:292: don't use underscores in Go names; func systemstack_switch should be systemstackSwitch
+/usr/local/go/src/runtime/stubs.go:302: don't use underscores in Go names; func memequal_varlen should be memequalVarlen
+/usr/local/go/src/runtime/symtab.go:344: don't use underscores in Go names; const _PCDATA_StackMapIndex should be _PCDATAStackMapIndex
+/usr/local/go/src/runtime/symtab.go:345: don't use underscores in Go names; const _PCDATA_InlTreeIndex should be _PCDATAInlTreeIndex
+/usr/local/go/src/runtime/symtab.go:346: don't use underscores in Go names; const _PCDATA_RegMapIndex should be _PCDATARegMapIndex
+/usr/local/go/src/runtime/symtab.go:347: don't use underscores in Go names; const _FUNCDATA_ArgsPointerMaps should be _FUNCDATAArgsPointerMaps
+/usr/local/go/src/runtime/symtab.go:348: don't use underscores in Go names; const _FUNCDATA_LocalsPointerMaps should be _FUNCDATALocalsPointerMaps
+/usr/local/go/src/runtime/symtab.go:349: don't use underscores in Go names; const _FUNCDATA_InlTree should be _FUNCDATAInlTree
+/usr/local/go/src/runtime/symtab.go:350: don't use underscores in Go names; const _FUNCDATA_RegPointerMaps should be _FUNCDATARegPointerMaps
+/usr/local/go/src/runtime/symtab.go:362: don't use underscores in Go names; const funcID_normal should be funcIDNormal
+/usr/local/go/src/runtime/symtab.go:363: don't use underscores in Go names; const funcID_runtime_main should be funcIDRuntimeMain
+/usr/local/go/src/runtime/symtab.go:364: don't use underscores in Go names; const funcID_goexit should be funcIDGoexit
+/usr/local/go/src/runtime/symtab.go:365: don't use underscores in Go names; const funcID_jmpdefer should be funcIDJmpdefer
+/usr/local/go/src/runtime/symtab.go:366: don't use underscores in Go names; const funcID_mcall should be funcIDMcall
+/usr/local/go/src/runtime/symtab.go:367: don't use underscores in Go names; const funcID_morestack should be funcIDMorestack
+/usr/local/go/src/runtime/symtab.go:368: don't use underscores in Go names; const funcID_mstart should be funcIDMstart
+/usr/local/go/src/runtime/symtab.go:369: don't use underscores in Go names; const funcID_rt0_go should be funcIDRt0Go
+/usr/local/go/src/runtime/symtab.go:370: don't use underscores in Go names; const funcID_asmcgocall should be funcIDAsmcgocall
+/usr/local/go/src/runtime/symtab.go:371: don't use underscores in Go names; const funcID_sigpanic should be funcIDSigpanic
+/usr/local/go/src/runtime/symtab.go:372: don't use underscores in Go names; const funcID_runfinq should be funcIDRunfinq
+/usr/local/go/src/runtime/symtab.go:373: don't use underscores in Go names; const funcID_gcBgMarkWorker should be funcIDGcBgMarkWorker
+/usr/local/go/src/runtime/symtab.go:374: don't use underscores in Go names; const funcID_systemstack_switch should be funcIDSystemstackSwitch
+/usr/local/go/src/runtime/symtab.go:375: don't use underscores in Go names; const funcID_systemstack should be funcIDSystemstack
+/usr/local/go/src/runtime/symtab.go:376: don't use underscores in Go names; const funcID_cgocallback_gofunc should be funcIDCgocallbackGofunc
+/usr/local/go/src/runtime/symtab.go:377: don't use underscores in Go names; const funcID_gogo should be funcIDGogo
+/usr/local/go/src/runtime/symtab.go:378: don't use underscores in Go names; const funcID_externalthreadhandler should be funcIDExternalthreadhandler
+/usr/local/go/src/runtime/symtab.go:379: don't use underscores in Go names; const funcID_debugCallV1 should be funcIDDebugCallV1
+/usr/local/go/src/runtime/symtab.go:934: don't use underscores in Go names; struct field func_ should be func
+/usr/local/go/src/runtime/time.go:442: don't use underscores in Go names; func poll_runtimeNano should be pollRuntimeNano
+/usr/local/go/src/runtime/time.go:447: don't use underscores in Go names; func time_runtimeNano should be timeRuntimeNano
+/usr/local/go/src/runtime/time.go:457: should omit type int64 from declaration of var startNano; it will be inferred from the right-hand side
+/usr/local/go/src/runtime/timestub.go:15: don't use underscores in Go names; func time_now should be timeNow
+/usr/local/go/src/runtime/trace.go:207: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/trace.go:583: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/trace.go:1005: don't use underscores in Go names; var _p_ should be _p
+/usr/local/go/src/runtime/trace.go:1017: don't use underscores in Go names; var _p_ should be _p
+/usr/local/go/src/runtime/trace.go:1027: don't use underscores in Go names; var _p_ should be _p
+/usr/local/go/src/runtime/trace.go:1054: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/trace.go:1055: don't use underscores in Go names; var _p_ should be _p
+/usr/local/go/src/runtime/trace.go:1072: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/trace.go:1078: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/trace.go:1091: don't use underscores in Go names; var _p_ should be _p
+/usr/local/go/src/runtime/trace.go:1118: don't use underscores in Go names; var _g_ should be _g
+/usr/local/go/src/runtime/trace.go:1152: don't use underscores in Go names; func trace_userTaskCreate should be traceUserTaskCreate
+/usr/local/go/src/runtime/trace.go:1170: don't use underscores in Go names; func trace_userTaskEnd should be traceUserTaskEnd
+/usr/local/go/src/runtime/trace.go:1175: don't use underscores in Go names; func trace_userRegion should be traceUserRegion
+/usr/local/go/src/runtime/trace.go:1192: don't use underscores in Go names; func trace_userLog should be traceUserLog
+/usr/local/go/src/runtime/vdso_elf64.go:13: don't use underscores in Go names; struct field st_name should be stName
+/usr/local/go/src/runtime/vdso_elf64.go:14: don't use underscores in Go names; struct field st_info should be stInfo
+/usr/local/go/src/runtime/vdso_elf64.go:15: don't use underscores in Go names; struct field st_other should be stOther
+/usr/local/go/src/runtime/vdso_elf64.go:16: don't use underscores in Go names; struct field st_shndx should be stShndx
+/usr/local/go/src/runtime/vdso_elf64.go:17: don't use underscores in Go names; struct field st_value should be stValue
+/usr/local/go/src/runtime/vdso_elf64.go:18: don't use underscores in Go names; struct field st_size should be stSize
+/usr/local/go/src/runtime/vdso_elf64.go:22: don't use underscores in Go names; struct field vd_version should be vdVersion
+/usr/local/go/src/runtime/vdso_elf64.go:23: don't use underscores in Go names; struct field vd_flags should be vdFlags
+/usr/local/go/src/runtime/vdso_elf64.go:24: don't use underscores in Go names; struct field vd_ndx should be vdNdx
+/usr/local/go/src/runtime/vdso_elf64.go:25: don't use underscores in Go names; struct field vd_cnt should be vdCnt
+/usr/local/go/src/runtime/vdso_elf64.go:26: don't use underscores in Go names; struct field vd_hash should be vdHash
+/usr/local/go/src/runtime/vdso_elf64.go:27: don't use underscores in Go names; struct field vd_aux should be vdAux
+/usr/local/go/src/runtime/vdso_elf64.go:28: don't use underscores in Go names; struct field vd_next should be vdNext
+/usr/local/go/src/runtime/vdso_elf64.go:32: don't use underscores in Go names; struct field e_ident should be eIdent
+/usr/local/go/src/runtime/vdso_elf64.go:33: don't use underscores in Go names; struct field e_type should be eType
+/usr/local/go/src/runtime/vdso_elf64.go:34: don't use underscores in Go names; struct field e_machine should be eMachine
+/usr/local/go/src/runtime/vdso_elf64.go:35: don't use underscores in Go names; struct field e_version should be eVersion
+/usr/local/go/src/runtime/vdso_elf64.go:36: don't use underscores in Go names; struct field e_entry should be eEntry
+/usr/local/go/src/runtime/vdso_elf64.go:37: don't use underscores in Go names; struct field e_phoff should be ePhoff
+/usr/local/go/src/runtime/vdso_elf64.go:38: don't use underscores in Go names; struct field e_shoff should be eShoff
+/usr/local/go/src/runtime/vdso_elf64.go:39: don't use underscores in Go names; struct field e_flags should be eFlags
+/usr/local/go/src/runtime/vdso_elf64.go:40: don't use underscores in Go names; struct field e_ehsize should be eEhsize
+/usr/local/go/src/runtime/vdso_elf64.go:41: don't use underscores in Go names; struct field e_phentsize should be ePhentsize
+/usr/local/go/src/runtime/vdso_elf64.go:42: don't use underscores in Go names; struct field e_phnum should be ePhnum
+/usr/local/go/src/runtime/vdso_elf64.go:43: don't use underscores in Go names; struct field e_shentsize should be eShentsize
+/usr/local/go/src/runtime/vdso_elf64.go:44: don't use underscores in Go names; struct field e_shnum should be eShnum
+/usr/local/go/src/runtime/vdso_elf64.go:45: don't use underscores in Go names; struct field e_shstrndx should be eShstrndx
+/usr/local/go/src/runtime/vdso_elf64.go:49: don't use underscores in Go names; struct field p_type should be pType
+/usr/local/go/src/runtime/vdso_elf64.go:50: don't use underscores in Go names; struct field p_flags should be pFlags
+/usr/local/go/src/runtime/vdso_elf64.go:51: don't use underscores in Go names; struct field p_offset should be pOffset
+/usr/local/go/src/runtime/vdso_elf64.go:52: don't use underscores in Go names; struct field p_vaddr should be pVaddr
+/usr/local/go/src/runtime/vdso_elf64.go:53: don't use underscores in Go names; struct field p_paddr should be pPaddr
+/usr/local/go/src/runtime/vdso_elf64.go:54: don't use underscores in Go names; struct field p_filesz should be pFilesz
+/usr/local/go/src/runtime/vdso_elf64.go:55: don't use underscores in Go names; struct field p_memsz should be pMemsz
+/usr/local/go/src/runtime/vdso_elf64.go:56: don't use underscores in Go names; struct field p_align should be pAlign
+/usr/local/go/src/runtime/vdso_elf64.go:60: don't use underscores in Go names; struct field sh_name should be shName
+/usr/local/go/src/runtime/vdso_elf64.go:61: don't use underscores in Go names; struct field sh_type should be shType
+/usr/local/go/src/runtime/vdso_elf64.go:62: don't use underscores in Go names; struct field sh_flags should be shFlags
+/usr/local/go/src/runtime/vdso_elf64.go:63: don't use underscores in Go names; struct field sh_addr should be shAddr
+/usr/local/go/src/runtime/vdso_elf64.go:64: don't use underscores in Go names; struct field sh_offset should be shOffset
+/usr/local/go/src/runtime/vdso_elf64.go:65: don't use underscores in Go names; struct field sh_size should be shSize
+/usr/local/go/src/runtime/vdso_elf64.go:66: don't use underscores in Go names; struct field sh_link should be shLink
+/usr/local/go/src/runtime/vdso_elf64.go:67: don't use underscores in Go names; struct field sh_info should be shInfo
+/usr/local/go/src/runtime/vdso_elf64.go:68: don't use underscores in Go names; struct field sh_addralign should be shAddralign
+/usr/local/go/src/runtime/vdso_elf64.go:69: don't use underscores in Go names; struct field sh_entsize should be shEntsize
+/usr/local/go/src/runtime/vdso_elf64.go:73: don't use underscores in Go names; struct field d_tag should be dTag
+/usr/local/go/src/runtime/vdso_elf64.go:74: don't use underscores in Go names; struct field d_val should be dVal
+/usr/local/go/src/runtime/vdso_elf64.go:78: don't use underscores in Go names; struct field vda_name should be vdaName
+/usr/local/go/src/runtime/vdso_elf64.go:79: don't use underscores in Go names; struct field vda_next should be vdaNext
+/usr/local/go/src/runtime/vdso_linux.go:24: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/vdso_linux.go:26: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/vdso_linux.go:27: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/vdso_linux.go:29: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/vdso_linux.go:30: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/vdso_linux.go:31: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/vdso_linux.go:32: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/vdso_linux.go:33: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/vdso_linux.go:34: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/vdso_linux.go:35: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/vdso_linux.go:37: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/vdso_linux.go:39: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/vdso_linux.go:41: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/vdso_linux.go:43: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/vdso_linux.go:45: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/vdso_linux.go:46: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/vdso_linux.go:48: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/vdso_linux.go:64: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/vdso_linux.go:65: don't use ALL_CAPS in Go names; use CamelCase
+/usr/local/go/src/runtime/vdso_linux_amd64.go:23: should drop = 0 from declaration of var vdsoClockgettimeSym; it is the zero value
+
+/usr/local/go/src/runtime>Finished running tool: /usr/bin/go vet ./...
+/usr/local/go/src/runtime/internal/atomic/atomic_test.go:96: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/pprof/pprof.go:323: method WriteTo(w io.Writer, debug int) error should have signature WriteTo(io.Writer) (int64, error)
+/usr/local/go/src/runtime/alg.go:67: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/atomic_pointer.go:76: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/cgo_mmap.go:37: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/cgocall.go:186: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/cgocall.go:264: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/cgocall.go:268: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/cgocall.go:273: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/cgocall.go:276: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/cgocall.go:279: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/cgocall.go:296: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/cgocall.go:300: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/cgocall.go:304: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/cgocall.go:341: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/cgocall.go:343: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/cgocall.go:586: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/cgocheck.go:26: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/heapdump.go:219: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/heapdump.go:275: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/heapdump.go:320: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/heapdump.go:374: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/heapdump.go:412: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/heapdump.go:422: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/heapdump.go:428: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/heapdump.go:440: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/heapdump.go:477: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/lfstack_64bit.go:41: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/lfstack_64bit.go:43: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/malloc.go:501: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/malloc.go:545: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/malloc.go:677: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/malloc.go:683: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/malloc.go:685: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/malloc.go:699: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/malloc.go:703: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/malloc.go:705: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/malloc.go:868: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/malloc.go:881: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/malloc.go:905: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/malloc.go:907: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/malloc.go:918: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/malloc.go:1230: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/malloc.go:1233: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mbitmap.go:481: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mbitmap.go:629: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mbitmap.go:639: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mbitmap.go:640: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mbitmap.go:675: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mbitmap.go:681: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mbitmap.go:734: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mbitmap.go:735: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mbitmap.go:1003: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mbitmap.go:1343: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mbitmap.go:1400: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mcache.go:65: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mem_linux.go:86: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mem_linux.go:90: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mem_linux.go:93: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mem_linux.go:126: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mfixalloc.go:84: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mgcmark.go:1046: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mgcmark.go:1136: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mgcmark.go:1282: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mgcsweep.go:251: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mgcsweep.go:275: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mgcsweep.go:278: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mgcsweep.go:281: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mgcsweep.go:357: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mgcwork.go:401: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mheap.go:764: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mheap.go:866: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mheap.go:949: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mheap.go:1103: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mheap.go:1143: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/mwbbuf.go:139: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/netpoll.go:400: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/os_linux.go:81: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/os_linux.go:146: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/os_linux.go:158: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/os_linux.go:265: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/panic.go:118: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/panic.go:120: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/panic.go:512: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/panic.go:528: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/plugin.go:81: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/plugin.go:82: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/print.go:292: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/proc.go:1848: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/proc.go:1930: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/proc.go:3356: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/proc.go:3361: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/proc.go:3532: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/proc.go:3535: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/runtime1.go:237: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/runtime1.go:239: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/runtime1.go:476: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/runtime1.go:479: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/runtime2.go:202: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/runtime2.go:223: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/runtime2.go:240: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/signal_amd64x.go:54: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/signal_amd64x.go:70: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/signal_amd64x.go:74: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/signal_amd64x.go:77: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/stack.go:370: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/stack.go:393: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/stack.go:416: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/stack.go:599: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/stack.go:599: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/stack.go:633: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/stack.go:649: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/stack.go:656: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/stack.go:664: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/stack.go:714: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/stack.go:761: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/stack.go:761: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/stack.go:826: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/stack.go:826: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/stack.go:1035: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/stack.go:1037: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/stubs.go:135: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/symtab.go:499: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/symtab.go:500: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/symtab.go:670: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/sys_x86.go:20: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/sys_x86.go:23: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/trace.go:171: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/trace.go:348: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/trace.go:762: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/trace.go:927: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/traceback.go:158: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/traceback.go:161: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/traceback.go:234: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/traceback.go:239: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/traceback.go:412: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/traceback.go:469: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/traceback.go:604: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/traceback.go:608: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/type.go:199: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/type.go:254: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/type.go:311: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/type.go:508: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/type.go:530: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/vdso_linux.go:105: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/vdso_linux.go:121: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/vdso_linux.go:141: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/vdso_linux.go:143: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/vdso_linux.go:145: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/vdso_linux.go:147: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/vdso_linux.go:149: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/vdso_linux.go:151: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/vdso_linux.go:275: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/export_debug_test.go:92: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/export_debug_test.go:95: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/export_debug_test.go:122: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/export_debug_test.go:131: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/export_debug_test.go:135: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/export_debug_test.go:142: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/export_debug_test.go:146: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/export_debug_test.go:150: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/export_test.go:441: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/norace_linux_test.go:27: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/runtime_linux_test.go:48: possible misuse of unsafe.Pointer
+/usr/local/go/src/runtime/runtime_test.go:186: possible misuse of unsafe.Pointer
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:13: don't use underscores in Go names; var s3cfg_file should be s3cfgFile
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:15: undefined: s3cfg_file
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:16: undefined: readers.S3reader
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:12: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:14: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:73: exported method S3params.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:26: result of fmt.Errorf call not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:12: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:14: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:73: exported method S3params.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:26: result of fmt.Errorf call not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:12: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:14: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:73: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:26: result of fmt.Errorf call not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:12: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:14: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:19: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:30: result of fmt.Errorf call not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:16: cannot use readers.S3reader literal (type *readers.S3reader) as type *readers.Reader in assignment:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:17: read.Read undefined (type *readers.Reader is pointer to interface, not interface)
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:16: cannot use readers.S3reader literal (type readers.S3reader) as type *readers.Reader in assignment:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:17: read.Read undefined (type *readers.Reader is pointer to interface, not interface)
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:16: cannot use readers.S3reader literal (type readers.S3reader) as type readers.Reader in assignment:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:12: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:14: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:19: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:30: result of fmt.Errorf call not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:16: cannot use readers.S3reader literal (type readers.S3reader) as type readers.Reader in assignment:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:16: cannot use readers.S3reader literal (type readers.S3reader) as type readers.Reader in assignment:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:16: type readers.S3reader is not an expression
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:16: reada declared and not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:16: cannot use readers.S3reader literal (type readers.S3reader) as type readers.Reader in assignment:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:12: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:14: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:19: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:30: result of fmt.Errorf call not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:12: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:14: exported type S3params should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:31: result of fmt.Errorf call not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:16: cannot use readers.S3reader literal (type readers.S3reader) as type readers.Reader in assignment:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:16: cannot use readers.S3reader literal (type readers.S3reader) as type readers.Reader in assignment:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:12: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:14: exported type S3params should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:31: result of fmt.Errorf call not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:12: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:14: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:19: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:30: result of fmt.Errorf call not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:12: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:14: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:19: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:30: result of fmt.Errorf call not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:12: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:14: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:19: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:30: result of fmt.Errorf call not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:12: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:14: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:19: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:30: result of fmt.Errorf call not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:16: cannot use readers.S3reader literal (type readers.S3reader) as type readers.Reader in assignment:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:18: read.Read undefined (type readers.Reader is pointer to interface, not interface)
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:16: cannot use readers.S3reader literal (type readers.S3reader) as type readers.Reader in assignment:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:17: read.Read undefined (type readers.Reader is pointer to interface, not interface)
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:12: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:14: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:19: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:30: result of fmt.Errorf call not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:16: cannot use readers.S3reader literal (type readers.S3reader) as type readers.Reader in assignment:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:18: read.Read undefined (type readers.Reader is pointer to interface, not interface)
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:16: cannot use readers.S3reader literal (type *readers.S3reader) as type readers.Reader in assignment:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:17: read.Read undefined (type readers.Reader is pointer to interface, not interface)
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:16: cannot use readers.S3reader literal (type readers.S3reader) as type readers.Reader in assignment:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:17: read.Read undefined (type readers.Reader is pointer to interface, not interface)
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:12: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:14: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:19: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:30: result of fmt.Errorf call not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:12: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:14: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:19: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:30: result of fmt.Errorf call not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:12: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:14: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:19: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:30: result of fmt.Errorf call not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:15: undefined: a
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:15: type struct { a int } is not an expression
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:15: type struct { int } is not an expression
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/main.go:15: s3 declared and not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:12: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:14: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:19: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:53: undefined: err
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:57: undefined: err
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:58: undefined: err
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:53: undefined: err
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:57: undefined: err
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:58: undefined: err
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:53: non-name s3p.Config on left side of :=
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:53: non-name s3p.Config on left side of :=
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:12: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:14: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:19: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:53: undefined: err
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:57: undefined: err
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:58: undefined: err
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:53: undefined: err
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:57: undefined: err
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:58: undefined: err
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:12: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:14: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:19: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:30: result of fmt.Errorf call not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:12: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:14: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:19: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:30: result of fmt.Errorf call not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:12: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:14: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:19: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:30: result of fmt.Errorf call not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:12: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:14: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:19: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:30: result of fmt.Errorf call not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:12: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:14: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:19: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:30: result of fmt.Errorf call not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:12: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:14: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:19: exported method S3reader.Process should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:48: error should be the last type when returning multiple items
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:34: multiple-value params.loadConfiguration() in single-value context
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:58: cannot use err (type error) as type string in return argument
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:34: multiple-value params.loadConfiguration() in single-value context
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:58: cannot use err (type error) as type string in return argument
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:12: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:14: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:19: exported method S3reader.Process should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:48: error should be the last type when returning multiple items
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:34: multiple-value params.loadConfiguration() in single-value context
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:34: multiple-value params.loadConfiguration() in single-value context
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:12: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:14: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:19: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:60: undefined: rieturn
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:61: missing return at end of function
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:60: undefined: rieturn
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:61: missing return at end of function
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /home/gbravoma/go/bin/golint
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/readers.go:3: exported type Reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:12: exported type S3reader should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:14: exported type S3params should have comment or be unexported
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:19: exported method S3reader.Process should have comment or be unexported
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/controllers/readers/s3_reader.go:30: result of fmt.Errorf call not used
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /home/gbravoma/go/bin/golint
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go vet ./...
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:6: cannot find package "github.com/tidwall/gjson" in any of:
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting/pandas/configUtils/fileUtils/JsonHandler.go:7: cannot find package "github.com/tidwall/sjson" in any of:
+
+/home/gbravoma/go/src/gitlab.cern.ch/compute-accounting/monit-accounting>Finished running tool: /usr/bin/go build -i -o /tmp/vscode-go25vJQu/go-code-check gitlab.cern.ch/compute-accounting/monit-accounting
+
