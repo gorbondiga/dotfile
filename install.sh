@@ -39,6 +39,9 @@ if [ ! -d ~/.vim/colors ]; then
     mkdir ~/.vim/colors
     git clone https://github.com/altercation/vim-colors-solarized.git ~/.vim/colors/vim-colors-solarized;
     git clone https://github.com/Siphalor/vim-atomified.git ~/.vim/colors/atomified;
+    git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+    ~/.fzf/install
+    cp ~/.fzf/bin/fzf /usr/bin/fzf
     mv ~/.vim/colors/atomified/colors/atomified.vim ~/.vim/colors/;
 fi
 

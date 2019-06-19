@@ -26,6 +26,9 @@ if v:version > 704
 	Plugin 'Valloric/YouCompleteMe'
 endif
 Plugin 'jnwhiteh/vim-golang'
+Plugin 'fatih/vim-go'
+Plugin 'junegunn/fzf'
+Plugin 'junegunn/fzf.vim'
 Plugin 'klen/python-mode'
 Plugin 'scrooloose/nerdtree'
 Plugin 'puppetlabs/puppet-syntax-vim'
