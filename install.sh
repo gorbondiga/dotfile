@@ -54,4 +54,4 @@ if [ $(dpkg-query -W -f i3wm 2>/dev/null | grep -c "ok installed") != 0 ]; then
     apt install i3
 fi
 # copy i3 config files into the configuration
-cp -r ~/dotfile/.configi/i3 ~/.config/i3;
+cp -r ~/dotfile/.config/i3 ~/.config/i3;
