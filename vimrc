@@ -33,6 +33,7 @@ Plugin 'klen/python-mode'
 Plugin 'scrooloose/nerdtree'
 Plugin 'puppetlabs/puppet-syntax-vim'
 Plugin 'tpope/vim-fugitive'
+Plugin 'terryma/vim-multiple-cursors'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'wkentaro-archive/conque.vim'
 Plugin 'vim-airline/vim-airline'
