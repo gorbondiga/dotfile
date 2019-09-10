@@ -12,6 +12,9 @@ syntax enable
 
 let mapleader = "<"
 
+" Automatic executions while saving, opening, quiting file
+autocmd BufWritePre * %s/\s\+$//e
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
