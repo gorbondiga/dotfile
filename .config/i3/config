@@ -119,6 +119,10 @@ bindsym Control+$mod+f exec firefox
 # launch chromium                                              
 bindsym Control+$mod+c exec chromium-browser
 
+#sound control
+bindsym $mod+Control+Right exec "amixer -q sset Master,0 10+ unmute"
+bindsym $mod+Control+Left exec "amixer -q sset Master,0 10- unmute"
+
 # switch to workspace
 bindsym $mod+1 workspace 1
 bindsym $mod+2 workspace 2
