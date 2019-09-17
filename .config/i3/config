@@ -34,6 +34,7 @@ set $down j
 # use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 set $mod Mod4
+set $alt Mod1
 
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
@@ -151,6 +152,10 @@ bindsym $mod+Shift+0 move container to workspace 10
 bindsym $mod+Shift+r reload
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+
+# Keyboard layout US, ES
+bindsym $alt+u exec "setxkbmap us"
+bindsym $alt+e exec "setxkbmap es"
 
 # No black screen while time passes
 #xset s off -dpms
