@@ -46,6 +46,11 @@ if [ ! -d ~/.vim/colors ]; then
 fi
 
 echo "export TERM=xterm-256color" >> ~/.bashrc;
+echo "export HISTCONTROL=ignoredups:erasedups" >> ~/.bashrc;
+# append history entries..
+echo "shopt -s histappend" >> ~/.bashrc;
+# After each command, save and reload history
+echo 'export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"' >> ~/.bashrc;
 
 ###################################
 # i3 configuration
@@ -54,4 +59,5 @@ if [ $(dpkg-query -W -f i3wm 2>/dev/null | grep -c "ok installed") != 0 ]; then
     apt install i3
 fi
 # copy i3 config files into the configuration
+mkdir -p ~/.config
 cp -rf ~/dotfile/.config/i3 ~/.config/.;
