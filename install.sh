@@ -51,6 +51,8 @@ echo "export HISTCONTROL=ignoredups:erasedups" >> ~/.bashrc;
 echo "shopt -s histappend" >> ~/.bashrc;
 # After each command, save and reload history
 echo 'export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"' >> ~/.bashrc;
+# Fix date time issues
+echo 'sudo hwclock --hctosys' >> ~/.bashrc
 
 ###################################
 # i3 configuration
